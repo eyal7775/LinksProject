@@ -7,7 +7,7 @@ import argparse
 import itertools
 import yaml # pip install pyyaml
 import io
-# usage: python links.py -r https://www.ynet.co.il/home/0,7340,L-8,00.html -d 2
+# usage: python links.py -r https://www.ynet.co.il/home/0,7340,L-8,00.html -d 2 -f yaml
 
 # user input
 parser = argparse.ArgumentParser(description='enter root link with max depth for scanning')
@@ -31,12 +31,13 @@ widgets = [
 
 # create custom file format by user choise
 def create_file_format():
-    if format == 'yaml' or format == 'yml':
-        yaml.dump({}, open(file_path, "w"), default_flow_style=False, allow_unicode=True, sort_keys=False)
-    elif format == 'json':
-        json.dump({}, open(file_path, "w"), indent=4)
-    else:
-        raise Exception('the format is invalid')
+    with io.open(file_path, 'w', encoding='utf8') as file:
+        if format == 'yaml' or format == 'yml':
+            yaml.dump({}, file, default_flow_style=False, allow_unicode=True, sort_keys=False)
+        elif format == 'json':
+            json.dump({}, file, indent=4)
+        else:
+            raise Exception('the format is invalid')
 
 # extract urls set from general url
 def extract_urls(link):
