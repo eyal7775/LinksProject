@@ -1,0 +1,982 @@
+{
+    "url_0": {
+        "path": "https://www.ynet.co.il/home/0,7340,L-8,00.html",
+        "depth": 0,
+        "access": true
+    },
+    "url_1": {
+        "path": "https://ynet-images1.yit.co.il/Common/frontend/site/prod/ynet.2422d4e9e5670a3533c7f52d861087a4.css",
+        "depth": 1,
+        "access": true
+    },
+    "url_2": {
+        "path": "https://www.ynet.co.il/images/favicon/favicon_1.ico",
+        "depth": 1,
+        "access": true
+    },
+    "url_3": {
+        "path": "https://cdn.flowplayer.com/releases/native/3/stable/style/flowplayer.css",
+        "depth": 1,
+        "access": true
+    },
+    "url_4": {
+        "path": "https://www.ynet.co.il/news/category/184",
+        "depth": 1,
+        "access": true
+    },
+    "url_5": {
+        "path": "https://redmail.ynet.co.il",
+        "depth": 1,
+        "access": true
+    },
+    "url_6": {
+        "path": "https://www.ynet.co.il/weather/tel-aviv-yafo",
+        "depth": 1,
+        "access": true
+    },
+    "url_7": {
+        "path": "https://premium.ynet.co.il/Web/Register",
+        "depth": 1,
+        "access": true
+    },
+    "url_8": {
+        "path": "https://www.ynet.co.il/plus",
+        "depth": 1,
+        "access": true
+    },
+    "url_9": {
+        "path": "https://www.ynet.co.il/news",
+        "depth": 1,
+        "access": true
+    },
+    "url_10": {
+        "path": "https://www.ynet.co.il/sport",
+        "depth": 1,
+        "access": true
+    },
+    "url_11": {
+        "path": "https://www.ynet.co.il/economy",
+        "depth": 1,
+        "access": true
+    },
+    "url_12": {
+        "path": "https://www.ynet.co.il/entertainment",
+        "depth": 1,
+        "access": true
+    },
+    "url_13": {
+        "path": "https://pplus.ynet.co.il",
+        "depth": 1,
+        "access": true
+    },
+    "url_14": {
+        "path": "https://www.ynet.co.il/health",
+        "depth": 1,
+        "access": true
+    },
+    "url_15": {
+        "path": "https://www.ynet.co.il/wheels",
+        "depth": 1,
+        "access": true
+    },
+    "url_16": {
+        "path": "https://www.ynet.co.il/digital",
+        "depth": 1,
+        "access": true
+    },
+    "url_17": {
+        "path": "https://www.ynet.co.il/laisha",
+        "depth": 1,
+        "access": true
+    },
+    "url_18": {
+        "path": "https://www.ynet.co.il/food",
+        "depth": 1,
+        "access": true
+    },
+    "url_19": {
+        "path": "https://www.ynet.co.il/judaism",
+        "depth": 1,
+        "access": true
+    },
+    "url_20": {
+        "path": "https://www.yedioth.co.il",
+        "depth": 1,
+        "access": true
+    },
+    "url_21": {
+        "path": "https://weather.ynet.co.il",
+        "depth": 1,
+        "access": true
+    },
+    "url_22": {
+        "path": "https://www.ynet.co.il/category/39672",
+        "depth": 1,
+        "access": true
+    },
+    "url_23": {
+        "path": "https://www.ynet.co.il/economy/category/5363",
+        "depth": 1,
+        "access": true
+    },
+    "url_24": {
+        "path": "https://www.ynet.co.il/economy/category/8315",
+        "depth": 1,
+        "access": true
+    },
+    "url_25": {
+        "path": "https://www.ynet.co.il/vacation",
+        "depth": 1,
+        "access": true
+    },
+    "url_26": {
+        "path": "https://www.ynet.co.il/dating",
+        "depth": 1,
+        "access": true
+    },
+    "url_27": {
+        "path": "https://www.ynet.co.il/menta",
+        "depth": 1,
+        "access": true
+    },
+    "url_28": {
+        "path": "https://www.ynet.co.il/parents",
+        "depth": 1,
+        "access": true
+    },
+    "url_29": {
+        "path": "https://www.ynet.co.il/environment-science",
+        "depth": 1,
+        "access": true
+    },
+    "url_30": {
+        "path": "https://www.ynet.co.il/activism",
+        "depth": 1,
+        "access": true
+    },
+    "url_31": {
+        "path": "https://www.ynet.co.il/fashion",
+        "depth": 1,
+        "access": true
+    },
+    "url_32": {
+        "path": "https://www.ynet.co.il/architecture",
+        "depth": 1,
+        "access": true
+    },
+    "url_33": {
+        "path": "https://www.ynet.co.il/news/category/194",
+        "depth": 1,
+        "access": true
+    },
+    "url_34": {
+        "path": "https://www.ynet.co.il/legit",
+        "depth": 1,
+        "access": true
+    },
+    "url_35": {
+        "path": "https://www.ynet.co.il/weather",
+        "depth": 1,
+        "access": true
+    },
+    "url_36": {
+        "path": "https://www.ynet.co.il/category/40552",
+        "depth": 1,
+        "access": true
+    },
+    "url_37": {
+        "path": "https://z.ynet.co.il/mshort/commerce/2018/musafimspecial",
+        "depth": 1,
+        "access": true
+    },
+    "url_38": {
+        "path": "https://www.ynet.co.il/activism/category/36572",
+        "depth": 1,
+        "access": true
+    },
+    "url_39": {
+        "path": "https://nadlan.ynet.co.il",
+        "depth": 1,
+        "access": true
+    },
+    "url_40": {
+        "path": "https://yschool.co.il",
+        "depth": 1,
+        "access": true
+    },
+    "url_41": {
+        "path": "https://www.ynet.co.il/economy/category/10978",
+        "depth": 1,
+        "access": true
+    },
+    "url_42": {
+        "path": "https://www.ynetnews.com/category/3083",
+        "depth": 1,
+        "access": true
+    },
+    "url_43": {
+        "path": "https://www.ynetespanol.com",
+        "depth": 1,
+        "access": true
+    },
+    "url_44": {
+        "path": "https://www.vesty.co.il",
+        "depth": 1,
+        "access": true
+    },
+    "url_45": {
+        "path": "https://de-wcm-mynet-cloud.yit.co.il/Common/home",
+        "depth": 1,
+        "access": true
+    },
+    "url_46": {
+        "path": "https://www.ynet.co.il/article/rkskixybt",
+        "depth": 1,
+        "access": true
+    },
+    "url_47": {
+        "path": "https://z.ynet.co.il/short/content/2018/privacypolicy/policy.html",
+        "depth": 1,
+        "access": true
+    },
+    "url_48": {
+        "path": "https://z.ynet.co.il/short/content/2018/privacypolicy/terms.html",
+        "depth": 1,
+        "access": true
+    },
+    "url_49": {
+        "path": "https://ynetads-10fd1.firebaseapp.com",
+        "depth": 1,
+        "access": true
+    },
+    "url_50": {
+        "path": "https://www.facebook.com/ynetnews",
+        "depth": 1,
+        "access": true
+    },
+    "url_51": {
+        "path": "https://www.instagram.com/ynetgram",
+        "depth": 1,
+        "access": true
+    },
+    "url_52": {
+        "path": "https://www.youtube.com/channel/UCpSSzrovhI4fA2PQNItecUA",
+        "depth": 1,
+        "access": true
+    },
+    "url_53": {
+        "path": "https://www.ynet.co.il/news/article/hymwejp39",
+        "depth": 1,
+        "access": true
+    },
+    "url_54": {
+        "path": "https://www.ynet.co.il/news/article/syaw11kwh5",
+        "depth": 1,
+        "access": true
+    },
+    "url_55": {
+        "path": "https://www.ynet.co.il/news/article/hkxyncs35",
+        "depth": 1,
+        "access": true
+    },
+    "url_56": {
+        "path": "https://www.ynet.co.il/environment-science/article/rylf1jl3c",
+        "depth": 1,
+        "access": true
+    },
+    "url_57": {
+        "path": "https://www.ynet.co.il/activism/article/rjjxsvs2c",
+        "depth": 1,
+        "access": true
+    },
+    "url_58": {
+        "path": "https://www.ynet.co.il/digital/technews/article/bkopccu3q",
+        "depth": 1,
+        "access": true
+    },
+    "url_59": {
+        "path": "https://www.calcalist.co.il/real-estate/article/bjul0thhq",
+        "depth": 1,
+        "access": true
+    },
+    "url_60": {
+        "path": "https://www.ynet.co.il/activism/article/ry00opplnc",
+        "depth": 1,
+        "access": true
+    },
+    "url_61": {
+        "path": "https://www.ynet.co.il/vacation/flights/article/hkgxeci29",
+        "depth": 1,
+        "access": true
+    },
+    "url_62": {
+        "path": "https://www.ynet.co.il/news/article/byxtt38h9",
+        "depth": 1,
+        "access": true
+    },
+    "url_63": {
+        "path": "https://www.ynet.co.il/news/article/skw59u8nc",
+        "depth": 1,
+        "access": true
+    },
+    "url_64": {
+        "path": "https://www.ynet.co.il/news/article/hk5hfal3c",
+        "depth": 1,
+        "access": true
+    },
+    "url_65": {
+        "path": "https://www.ynet.co.il/news/article/s1b500v8hq",
+        "depth": 1,
+        "access": true
+    },
+    "url_66": {
+        "path": "https://www.ynet.co.il/news/article/hjbttcinq",
+        "depth": 1,
+        "access": true
+    },
+    "url_67": {
+        "path": "https://www.ynet.co.il/news/article/b1muboihq",
+        "depth": 1,
+        "access": true
+    },
+    "url_68": {
+        "path": "https://www.ynet.co.il/news/article/r1a3ful39",
+        "depth": 1,
+        "access": true
+    },
+    "url_69": {
+        "path": "https://www.ynet.co.il/news/article/sy8wvni35",
+        "depth": 1,
+        "access": true
+    },
+    "url_70": {
+        "path": "https://www.ynet.co.il/news/article/skfan6u39",
+        "depth": 1,
+        "access": true
+    },
+    "url_71": {
+        "path": "https://www.ynet.co.il/news/article/hjdai2lh9",
+        "depth": 1,
+        "access": true
+    },
+    "url_72": {
+        "path": "https://www.ynet.co.il/food/article/hjivsnbnc",
+        "depth": 1,
+        "access": true
+    },
+    "url_73": {
+        "path": "https://www.ynet.co.il/blazer/article/s1tpmgd99",
+        "depth": 1,
+        "access": true
+    },
+    "url_74": {
+        "path": "https://www.ynet.co.il/entertainment/article/rkbg3dw39",
+        "depth": 1,
+        "access": true
+    },
+    "url_75": {
+        "path": "https://www.ynet.co.il/blazer/article/hydi00ldoq",
+        "depth": 1,
+        "access": true
+    },
+    "url_76": {
+        "path": "https://www.ynet.co.il/economy/article/h1l4llnsc",
+        "depth": 1,
+        "access": true
+    },
+    "url_77": {
+        "path": "https://www.ynet.co.il/health/article/hj11bow002y",
+        "depth": 1,
+        "access": true
+    },
+    "url_78": {
+        "path": "https://www.ynet.co.il/economy/article/h1wvn00i35",
+        "depth": 1,
+        "access": true
+    },
+    "url_79": {
+        "path": "https://www.ynet.co.il/economy/article/2oa56lmul",
+        "depth": 1,
+        "access": true
+    },
+    "url_80": {
+        "path": "https://www.ynet.co.il/economy/article/skcbdp83c",
+        "depth": 1,
+        "access": true
+    },
+    "url_81": {
+        "path": "https://www.ynet.co.il/economy/article/b1qmi0r39",
+        "depth": 1,
+        "access": true
+    },
+    "url_82": {
+        "path": "https://www.ynet.co.il/economy/article/syzyfti3q",
+        "depth": 1,
+        "access": true
+    },
+    "url_83": {
+        "path": "https://www.ynet.co.il/economy/article/bkraryu3c",
+        "depth": 1,
+        "access": true
+    },
+    "url_84": {
+        "path": "https://www.ynet.co.il/economy/article/p40ozk6ax",
+        "depth": 1,
+        "access": true
+    },
+    "url_85": {
+        "path": "https://www.ynet.co.il/sport/article/one415171",
+        "depth": 1,
+        "access": true
+    },
+    "url_86": {
+        "path": "https://www.ynet.co.il/sport/article/sj86zzn25",
+        "depth": 1,
+        "access": true
+    },
+    "url_87": {
+        "path": "https://www.ynet.co.il/sport/article/one415179",
+        "depth": 1,
+        "access": true
+    },
+    "url_88": {
+        "path": "https://www.ynet.co.il/sport/article/one415187",
+        "depth": 1,
+        "access": true
+    },
+    "url_89": {
+        "path": "https://www.ynet.co.il/sport/article/one415184",
+        "depth": 1,
+        "access": true
+    },
+    "url_90": {
+        "path": "https://www.ynet.co.il/sport/article/rykutb8h9",
+        "depth": 1,
+        "access": true
+    },
+    "url_91": {
+        "path": "https://www.ynet.co.il/sport/article/one415178",
+        "depth": 1,
+        "access": true
+    },
+    "url_92": {
+        "path": "https://www.linkedin.com/company/calcalist",
+        "depth": 1,
+        "access": true
+    },
+    "url_93": {
+        "path": "https://twitter.com/calcalist",
+        "depth": 1,
+        "access": true
+    },
+    "url_94": {
+        "path": "https://www.instagram.com/calcalist",
+        "depth": 1,
+        "access": true
+    },
+    "url_95": {
+        "path": "https://www.facebook.com/calcalistonline",
+        "depth": 1,
+        "access": true
+    },
+    "url_96": {
+        "path": "https://www.calcalist.co.il/calcalistech/article/hyva5ol2q",
+        "depth": 1,
+        "access": true
+    },
+    "url_97": {
+        "path": "https://www.one.co.il",
+        "depth": 1,
+        "access": true
+    },
+    "url_98": {
+        "path": "https://www.ynet.co.il/parents/category/39893",
+        "depth": 1,
+        "access": true
+    },
+    "url_99": {
+        "path": "https://www.ynet.co.il/food/article/byrhosli9",
+        "depth": 1,
+        "access": true
+    },
+    "url_100": {
+        "path": "https://www.ynet.co.il/entertainment/article/sjeqjepq9",
+        "depth": 1,
+        "access": true
+    },
+    "url_101": {
+        "path": "https://www.ynet.co.il/economy/article/r1hodcpoq",
+        "depth": 1,
+        "access": true
+    },
+    "url_102": {
+        "path": "https://www.ynet.co.il/vacation/article/bytoj2tsc",
+        "depth": 1,
+        "access": true
+    },
+    "url_103": {
+        "path": "https://www.ynet.co.il/health/article/h1orpafj9",
+        "depth": 1,
+        "access": true
+    },
+    "url_104": {
+        "path": "https://www.ynet.co.il/health/article/bjtcrevn9",
+        "depth": 1,
+        "access": true
+    },
+    "url_105": {
+        "path": "https://www.ynet.co.il/health/article/bjmtoghnq",
+        "depth": 1,
+        "access": true
+    },
+    "url_106": {
+        "path": "https://www.ynet.co.il/health/article/rk0jkomh5",
+        "depth": 1,
+        "access": true
+    },
+    "url_107": {
+        "path": "https://www.ynet.co.il/health/article/rylr6nbnq",
+        "depth": 1,
+        "access": true
+    },
+    "url_108": {
+        "path": "https://www.ynet.co.il/health/article/rkzvwbs35",
+        "depth": 1,
+        "access": true
+    },
+    "url_109": {
+        "path": "https://www.ynet.co.il/health/article/hk00szeb3q",
+        "depth": 1,
+        "access": true
+    },
+    "url_110": {
+        "path": "https://www.ynet.co.il/entertainment/article/bynuqainq",
+        "depth": 1,
+        "access": true
+    },
+    "url_111": {
+        "path": "https://www.ynet.co.il/entertainment/article/bkzae1phq",
+        "depth": 1,
+        "access": true
+    },
+    "url_112": {
+        "path": "https://www.ynet.co.il/entertainment/article/h1qdzc825",
+        "depth": 1,
+        "access": true
+    },
+    "url_113": {
+        "path": "https://www.ynet.co.il/entertainment/article/hkxcc6h3q",
+        "depth": 1,
+        "access": true
+    },
+    "url_114": {
+        "path": "https://www.ynet.co.il/entertainment/article/bytegsf2c",
+        "depth": 1,
+        "access": true
+    },
+    "url_115": {
+        "path": "https://www.ynet.co.il/entertainment/article/h1evy5b3q",
+        "depth": 1,
+        "access": true
+    },
+    "url_116": {
+        "path": "https://www.ynet.co.il/menta/article/r13ior829",
+        "depth": 1,
+        "access": true
+    },
+    "url_117": {
+        "path": "https://www.ynet.co.il/menta/plus/article/ska3ux1oc",
+        "depth": 1,
+        "access": true
+    },
+    "url_118": {
+        "path": "https://www.ynet.co.il/news/article/bjrnhcsn5",
+        "depth": 1,
+        "access": true
+    },
+    "url_119": {
+        "path": "https://www.ynet.co.il/news/article/by0tcq4h9",
+        "depth": 1,
+        "access": true
+    },
+    "url_120": {
+        "path": "https://www.ynet.co.il/news/article/byyj11wn2q",
+        "depth": 1,
+        "access": true
+    },
+    "url_121": {
+        "path": "https://www.ynet.co.il/news/article/b1rzg00inq",
+        "depth": 1,
+        "access": true
+    },
+    "url_122": {
+        "path": "https://www.ynet.co.il/news/article/bjzncwl25",
+        "depth": 1,
+        "access": true
+    },
+    "url_123": {
+        "path": "https://www.ynet.co.il/news/article/rkzntdl25",
+        "depth": 1,
+        "access": true
+    },
+    "url_124": {
+        "path": "https://www.ynet.co.il/laisha/article/rjwh7iqic",
+        "depth": 1,
+        "access": true
+    },
+    "url_125": {
+        "path": "https://www.ynet.co.il/economy/article/s1xsmwr2c",
+        "depth": 1,
+        "access": true
+    },
+    "url_126": {
+        "path": "https://www.ynet.co.il/economy/article/symq6lehq",
+        "depth": 1,
+        "access": true
+    },
+    "url_127": {
+        "path": "https://www.ynet.co.il/digital/technews/article/h1spg00in5",
+        "depth": 1,
+        "access": true
+    },
+    "url_128": {
+        "path": "https://www.ynet.co.il/digital/article/sytubze2q",
+        "depth": 1,
+        "access": true
+    },
+    "url_129": {
+        "path": "https://www.ynet.co.il/digital/technews/article/bki9quhh9",
+        "depth": 1,
+        "access": true
+    },
+    "url_130": {
+        "path": "https://www.ynet.co.il/digital/technews/article/sjbxzqs3q",
+        "depth": 1,
+        "access": true
+    },
+    "url_131": {
+        "path": "https://www.ynet.co.il/digital/technews/article/bkwhsxe35",
+        "depth": 1,
+        "access": true
+    },
+    "url_132": {
+        "path": "https://www.ynet.co.il/environment-science/article/hk6gf9ln5",
+        "depth": 1,
+        "access": true
+    },
+    "url_133": {
+        "path": "https://www.ynet.co.il/environment-science/article/bkunfch2q",
+        "depth": 1,
+        "access": true
+    },
+    "url_134": {
+        "path": "https://www.ynet.co.il/environment-science/article/bypjcoln9",
+        "depth": 1,
+        "access": true
+    },
+    "url_135": {
+        "path": "https://www.ynet.co.il/environment-science/article/h1rubkunc",
+        "depth": 1,
+        "access": true
+    },
+    "url_136": {
+        "path": "https://www.ynet.co.il/laisha/article/hyaygj9iq",
+        "depth": 1,
+        "access": true
+    },
+    "url_137": {
+        "path": "https://www.ynet.co.il/laisha/article/r100nnjrh9",
+        "depth": 1,
+        "access": true
+    },
+    "url_138": {
+        "path": "https://www.ynet.co.il/laisha/article/hjr9lxv9q",
+        "depth": 1,
+        "access": true
+    },
+    "url_139": {
+        "path": "https://www.ynet.co.il/activism/article/byq0fq835",
+        "depth": 1,
+        "access": true
+    },
+    "url_140": {
+        "path": "https://www.ynet.co.il/activism/article/b1fuk90s9",
+        "depth": 1,
+        "access": true
+    },
+    "url_141": {
+        "path": "https://www.ynet.co.il/vacation/article/sykzp6qsq",
+        "depth": 1,
+        "access": true
+    },
+    "url_142": {
+        "path": "https://www.ynet.co.il/wheels/news/article/hjdyeuu3c",
+        "depth": 1,
+        "access": true
+    },
+    "url_143": {
+        "path": "https://www.ynet.co.il/wheels/news/article/hyavntf25",
+        "depth": 1,
+        "access": true
+    },
+    "url_144": {
+        "path": "https://www.ynet.co.il/wheels/news/article/s1h7b3z2q",
+        "depth": 1,
+        "access": true
+    },
+    "url_145": {
+        "path": "https://www.ynet.co.il/wheels/news/article/bk00bgfz39",
+        "depth": 1,
+        "access": true
+    },
+    "url_146": {
+        "path": "https://www.ynet.co.il/wheels/news/article/ryibvcgh5",
+        "depth": 1,
+        "access": true
+    },
+    "url_147": {
+        "path": "https://www.ynet.co.il/judaism/article/bk00frwu25",
+        "depth": 1,
+        "access": true
+    },
+    "url_148": {
+        "path": "https://www.ynet.co.il/judaism/article/b1g11nlsn5",
+        "depth": 1,
+        "access": true
+    },
+    "url_149": {
+        "path": "https://www.ynet.co.il/judaism/article/r100akub3c",
+        "depth": 1,
+        "access": true
+    },
+    "url_150": {
+        "path": "https://www.ynet.co.il/judaism/article/sybk8kr29",
+        "depth": 1,
+        "access": true
+    },
+    "url_151": {
+        "path": "https://www.ynet.co.il/judaism/article/r1nvl3pic",
+        "depth": 1,
+        "access": true
+    },
+    "url_152": {
+        "path": "https://www.ynet.co.il/dating/sexappeal/article/ena6uh467",
+        "depth": 1,
+        "access": true
+    },
+    "url_153": {
+        "path": "https://www.ynet.co.il/dating/article/jyonk4yg5",
+        "depth": 1,
+        "access": true
+    },
+    "url_154": {
+        "path": "https://www.ynet.co.il/dating/singles/article/e745ihry5",
+        "depth": 1,
+        "access": true
+    },
+    "url_155": {
+        "path": "https://www.ynet.co.il/vacation/flights/article/hyhwxzr2q",
+        "depth": 1,
+        "access": true
+    },
+    "url_156": {
+        "path": "https://www.ynet.co.il/vacation/flights/article/sjea6dajc",
+        "depth": 1,
+        "access": true
+    },
+    "url_157": {
+        "path": "https://www.ynet.co.il/food/recipies/article/h1olj811h9",
+        "depth": 1,
+        "access": true
+    },
+    "url_158": {
+        "path": "https://www.ynet.co.il/food/article/hy9cm6m25",
+        "depth": 1,
+        "access": true
+    },
+    "url_159": {
+        "path": "https://www.ynet.co.il/food/foodnews/article/hjauj114nc",
+        "depth": 1,
+        "access": true
+    },
+    "url_160": {
+        "path": "https://www.ynet.co.il/parents/article/s1ngpc72q",
+        "depth": 1,
+        "access": true
+    },
+    "url_161": {
+        "path": "https://www.ynet.co.il/parents/article/sjaueug39",
+        "depth": 1,
+        "access": true
+    },
+    "url_162": {
+        "path": "https://www.ynet.co.il/parents/article/b1g08xiic",
+        "depth": 1,
+        "access": true
+    },
+    "url_163": {
+        "path": "https://www.ynet.co.il/fashion/article/hj5wy6095",
+        "depth": 1,
+        "access": true
+    },
+    "url_164": {
+        "path": "https://www.ynet.co.il/fashion/article/rkutmhm3q",
+        "depth": 1,
+        "access": true
+    },
+    "url_165": {
+        "path": "https://www.ynet.co.il/fashion/article/sy2vkbts5",
+        "depth": 1,
+        "access": true
+    },
+    "url_166": {
+        "path": "https://www.ynet.co.il/legit/art/article/hkkiwd8hq",
+        "depth": 1,
+        "access": true
+    },
+    "url_167": {
+        "path": "https://www.ynet.co.il/legit/culture/article/bksyy5e3c",
+        "depth": 1,
+        "access": true
+    },
+    "url_168": {
+        "path": "https://www.ynet.co.il/legit/design/article/h10xupm25",
+        "depth": 1,
+        "access": true
+    },
+    "url_169": {
+        "path": "https://www.pro.co.il",
+        "depth": 1,
+        "access": true
+    },
+    "url_170": {
+        "path": "https://www.ynet.co.il/economy/article/s1v5wuxo9",
+        "depth": 1,
+        "access": true
+    },
+    "url_171": {
+        "path": "https://www.ynet.co.il/economy/article/rkyepk7i9",
+        "depth": 1,
+        "access": true
+    },
+    "url_172": {
+        "path": "https://www.ynet.co.il/architecture/article/h173dcih5",
+        "depth": 1,
+        "access": true
+    },
+    "url_173": {
+        "path": "https://www.ynet.co.il/architecture/article/b1brvqe39",
+        "depth": 1,
+        "access": true
+    },
+    "url_174": {
+        "path": "https://www.ynet.co.il/architecture/article/skgk30mn5",
+        "depth": 1,
+        "access": true
+    },
+    "url_175": {
+        "path": "https://www.ynet.co.il/economy/category/10610",
+        "depth": 1,
+        "access": true
+    },
+    "url_176": {
+        "path": "https://www.ynet.co.il/economy/article/skh1znrhq",
+        "depth": 1,
+        "access": true
+    },
+    "url_177": {
+        "path": "https://www.ynet.co.il/economy/article/hyl1efbn5",
+        "depth": 1,
+        "access": true
+    },
+    "url_178": {
+        "path": "https://www.ynet.co.il/economy/article/h100wbtbn9",
+        "depth": 1,
+        "access": true
+    },
+    "url_179": {
+        "path": "https://www.ynet.co.il/activism/article/r1mekfsn9",
+        "depth": 1,
+        "access": true
+    },
+    "url_180": {
+        "path": "https://www.ynet.co.il/activism/article/r1tjrj4n9",
+        "depth": 1,
+        "access": true
+    },
+    "url_181": {
+        "path": "https://www.ynet.co.il/blazer",
+        "depth": 1,
+        "access": true
+    },
+    "url_182": {
+        "path": "https://www.ynet.co.il/blazer/article/rkvvtkxi5",
+        "depth": 1,
+        "access": true
+    },
+    "url_183": {
+        "path": "https://www.ynet.co.il/economy/article/byszgfev9",
+        "depth": 1,
+        "access": true
+    },
+    "url_184": {
+        "path": "https://www.ynet.co.il/economy/article/bydimhnj5",
+        "depth": 1,
+        "access": true
+    },
+    "url_185": {
+        "path": "https://www.ynet.co.il/news/theheadline/article/j2rv3y4ku",
+        "depth": 1,
+        "access": true
+    },
+    "url_186": {
+        "path": "https://www.ynet.co.il/vacation/article/sylxkdcdc",
+        "depth": 1,
+        "access": true
+    },
+    "url_187": {
+        "path": "https://www.ynet.co.il/health/article/r1x11skmpq",
+        "depth": 1,
+        "access": true
+    },
+    "url_188": {
+        "path": "https://www.ynet.co.il/health/article/sktbwemwq",
+        "depth": 1,
+        "access": true
+    },
+    "url_189": {
+        "path": "https://www.ynet.co.il/article/r1kywv005c",
+        "depth": 1,
+        "access": true
+    },
+    "url_190": {
+        "path": "https://www.ynet.co.il/laisha/article/s1v7qaqh9",
+        "depth": 1,
+        "access": true
+    },
+    "url_191": {
+        "path": "https://www.ynet.co.il/economy/article/bkjwugcmq",
+        "depth": 1,
+        "access": true
+    },
+    "url_192": {
+        "path": "https://www.ynet.co.il/economy/article/hjscdf0z9",
+        "depth": 1,
+        "access": true
+    },
+    "url_193": {
+        "path": "http://www.radware.com",
+        "depth": 1,
+        "access": true
+    },
+    "url_194": {
+        "path": "http://www.acum.org.il",
+        "depth": 1,
+        "access": true
+    },
+    "url_195": {
+        "path": "http://www.tali-rights.co.il",
+        "depth": 1,
+        "access": true
+    }
+}
