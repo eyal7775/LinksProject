@@ -4,6 +4,7 @@ import datetime
 import json
 import progressbar # pip install progressbar2
 import argparse
+import itertools
 # usage: python links.py -r https://www.ynet.co.il/home/0,7340,L-8,00.html -d 2
 
 # user input
@@ -25,6 +26,9 @@ widgets = [
     progressbar.Bar('*'), '',
     progressbar.Percentage(), '',
 ]
+
+# progress bar
+# bar = progressbar.ProgressBar(max_value=len(links), widgets=widgets)
 
 # extract urls set from general url
 def extract_urls(link):
@@ -59,11 +63,15 @@ def fix_urls(links):
 # create datasets information for each link
 def create_datasets(links ,depth):
     datasets = []
+    bar = progressbar.ProgressBar(max_value=len(links), widgets=widgets).start()
+    i = 0
     for link in links:
         if not link in visited:
             dataset = (link ,depth ,try_open_url(link))
             datasets.append(dataset)
             visited.append(link)
+        bar.update(i)
+        i = i + 1
     return datasets
 
 # check access to url
@@ -98,15 +106,10 @@ def download_urls(links ,depth = 0):
         return links
     else:
         print("\nextract urls from " + str(root) + " in depth " + str(depth + 1) + ":")
-        bar = progressbar.ProgressBar(max_value=len(links) ,widgets=widgets).start()
-        i = 0
         cumulative = []
-        for link in links:
-            extracts = extract_urls(link)
-            datasets = create_datasets(extracts ,depth + 1)
-            cumulative = cumulative + datasets
-            bar.update(i)
-            i = i + 1
+        extracts = list(itertools.chain(*map(extract_urls, links)))
+        datasets = create_datasets(extracts, depth + 1)
+        cumulative = cumulative + datasets
         add_data_to_json(cumulative)
         new_links = [dataset[0] for dataset in cumulative]
         return links + download_urls(new_links ,depth + 1)
