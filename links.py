@@ -5,20 +5,22 @@ import json
 import progressbar # pip install progressbar2
 import argparse
 import itertools
+import yaml # pip install pyyaml
+import io
 # usage: python links.py -r https://www.ynet.co.il/home/0,7340,L-8,00.html -d 2
 
 # user input
 parser = argparse.ArgumentParser(description='enter root link with max depth for scanning')
 parser.add_argument('-r', '--root', help="main page from start scan", type=str, required=True)
 parser.add_argument('-d', '--depth', help="max depth for scanning", type=int, required=True)
+parser.add_argument('-f', '--format', help="file result format for display", type=str, required=True)
 args = vars(parser.parse_args())
-root = args['root']
-max_depth = args['depth']
+root ,max_depth ,format = args['root'] ,args['depth'] ,args['format']
 
 # global variables
 serial = 1
 visited = []
-json_path = root.split('.')[1] + "_" + str(max_depth) + ".json"
+file_path = root.split('.')[1] + "_" + str(max_depth) + "." + format
 
 # design for progress bar
 widgets = [
@@ -27,8 +29,14 @@ widgets = [
     progressbar.Percentage(), '',
 ]
 
-# progress bar
-# bar = progressbar.ProgressBar(max_value=len(links), widgets=widgets)
+# create custom file format by user choise
+def create_file_format():
+    if format == 'yaml' or format == 'yml':
+        yaml.dump({}, open(file_path, "w"), default_flow_style=False, allow_unicode=True, sort_keys=False)
+    elif format == 'json':
+        json.dump({}, open(file_path, "w"), indent=4)
+    else:
+        raise Exception('the format is invalid')
 
 # extract urls set from general url
 def extract_urls(link):
@@ -63,6 +71,7 @@ def fix_urls(links):
 # create datasets information for each link
 def create_datasets(links ,depth):
     datasets = []
+    print("\nextract urls from " + str(root) + " in depth " + str(depth) + ":")
     bar = progressbar.ProgressBar(max_value=len(links), widgets=widgets).start()
     i = 0
     for link in links:
@@ -84,8 +93,7 @@ def try_open_url(link):
 
 # insert urls data to file results
 def add_data_to_json(datasets):
-    with open(json_path ,"r") as file:
-        result = json.load(file)
+    next = read_from_file()
     global serial
     for dataset in datasets:
         link ,depth ,access = dataset[0] ,dataset[1] ,dataset[2]
@@ -95,17 +103,32 @@ def add_data_to_json(datasets):
             "depth": depth,
             "access": access
         }
-        result[key] = value
+        next[key] = value
         serial = serial + 1
-    with open(json_path ,"w") as file:
-        json.dump(result ,file ,indent=4)
+    write_to_file(next)
+
+# read latest data from file results
+def read_from_file():
+    with open(file_path , "r") as file:
+        if format == 'yaml' or format == 'yml':
+            content = yaml.safe_load(file)
+        elif format == 'json':
+            content = json.load(file)
+    return content
+
+# write new data to file results
+def write_to_file(content):
+    with io.open(file_path, 'w', encoding='utf8') as file:
+        if format == 'yaml' or format == 'yml':
+            yaml.dump(content, file, default_flow_style=False, allow_unicode=True, sort_keys=False)
+        elif format == 'json':
+            json.dump(content, file, indent=4)
 
 # download all data from main url up to max depth
 def download_urls(links ,depth = 0):
     if depth == max_depth:
         return links
     else:
-        print("\nextract urls from " + str(root) + " in depth " + str(depth + 1) + ":")
         cumulative = []
         extracts = list(itertools.chain(*map(extract_urls, links)))
         datasets = create_datasets(extracts, depth + 1)
@@ -117,8 +140,16 @@ def download_urls(links ,depth = 0):
 # main test
 if __name__ == "__main__":
     start = datetime.datetime.now()
+    create_file_format()
     access = try_open_url(root)
-    json.dump({"url_0": {"path": root ,"depth": 0 ,"access": access}} ,open(json_path ,"w") ,indent=4)
+    first = {
+        "url_0": {
+            "path": root,
+            "depth": 0,
+            "access": access
+        }
+    }
+    write_to_file(first)
     if access:
         visited.append(root)
         links = download_urls([root])
