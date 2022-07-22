@@ -18,11 +18,12 @@ parser.add_argument('-f', '--format', help="file result format for display", typ
 # get initial arguments
 args = vars(parser.parse_args())
 root ,max_depth ,format = args['root'] ,args['depth'] ,args['format']
+timestamp = datetime.datetime.now().strftime('%m-%d-%Y %H-%M-%S')
 
 # global variables
 serial = 0
 visited = []
-file_path = root.split('.')[1] + "_" + str(max_depth) + "." + format
+file_path = root.split('.')[1] + "_md" + str(max_depth) + "_" + timestamp + "." + format
 
 # design for progress bar
 widgets = [
@@ -73,9 +74,9 @@ def fix_urls(links):
 
 # create dataset information for link
 def create_dataset(link ,depth):
-    dataset = None
+    dataset = []
     if not link in visited:
-        dataset = (link, depth, try_open_url(link))
+        dataset = [link, depth, try_open_url(link)]
         visited.append(link)
     return dataset
 
@@ -122,18 +123,15 @@ def write_to_file(data):
 # download all data from main url up to max depth
 def download_urls(links ,depth = 0):
     if depth > max_depth:
-        return links
+        return []
     else:
-        bar = progressbar.ProgressBar(max_value=len(links), widgets=widgets)
+        print("\nextract urls from " + str(root) + " in depth " + str(depth) + ":")
+        bar = progressbar.ProgressBar(max_value=len(links), widgets=widgets).start()
         next = 0
-        if depth > 0:
-            print("\nextract urls from " + str(root) + " in depth " + str(depth) + ":")
-            bar.start()
         cumulative = []
         for link in links:
             dataset = create_dataset(link, depth)
-            if dataset:
-                add_data_to_json(dataset)
+            add_data_to_json(dataset)
             extracts = list(set(extract_urls(link)))
             cumulative = cumulative + extracts
             bar.update(next)
