@@ -4,7 +4,6 @@ import datetime
 import json
 import progressbar # pip install progressbar2
 import argparse
-import itertools
 import yaml # pip install pyyaml
 import io
 # usage: python links.py -r https://www.ynet.co.il/home/0,7340,L-8,00.html -d 2 -f yaml
@@ -28,6 +27,9 @@ widgets = [
     progressbar.Bar('*'), '',
     progressbar.Percentage(), '',
 ]
+
+# route to links from previous link
+routes = {}
 
 # create custom file format by user choise
 def create_file_format():
@@ -70,18 +72,13 @@ def fix_urls(links):
     return fix_links
 
 # create datasets information for each link
-def create_datasets(links ,depth):
+def create_datasets(links ,depth ,prev):
     datasets = []
-    print("\nextract urls from " + str(root) + " in depth " + str(depth) + ":")
-    bar = progressbar.ProgressBar(max_value=len(links), widgets=widgets).start()
-    i = 0
     for link in links:
         if not link in visited:
-            dataset = (link ,depth ,try_open_url(link))
+            dataset = (link ,depth ,try_open_url(link) ,prev)
             datasets.append(dataset)
             visited.append(link)
-        bar.update(i)
-        i = i + 1
     return datasets
 
 # check access to url
@@ -97,16 +94,29 @@ def add_data_to_json(datasets):
     next = read_from_file()
     global serial
     for dataset in datasets:
-        link ,depth ,access = dataset[0] ,dataset[1] ,dataset[2]
+        link ,depth ,access ,prev = dataset[0] ,dataset[1] ,dataset[2] ,dataset[3]
         key = 'url_' + str(serial)
         value = {
-            "path": link,
+            "link": link,
             "depth": depth,
-            "access": access
+            "access": access,
+            "prev": prev
         }
         next[key] = value
         serial = serial + 1
     write_to_file(next)
+
+def create_data_link(link ,depth ,access ,prev):
+    global serial
+    key = 'url_' + str(serial)
+    value = {
+        "link": link,
+        "depth": depth,
+        "access": access,
+        "prev": prev
+    }
+    next[key] = value
+    serial = serial + 1
 
 # read latest data from file results
 def read_from_file():
@@ -130,11 +140,18 @@ def download_urls(links ,depth = 0):
     if depth == max_depth:
         return links
     else:
+        print("\nextract urls from " + str(root) + " in depth " + str(depth + 1) + ":")
+        bar = progressbar.ProgressBar(max_value=len(links), widgets=widgets).start()
+        i = 0
         cumulative = []
-        extracts = list(itertools.chain(*map(extract_urls, links)))
-        datasets = create_datasets(extracts, depth + 1)
-        cumulative = cumulative + datasets
-        add_data_to_json(cumulative)
+        for link in links:
+            extracts = extract_urls(link)
+            datasets = create_datasets(extracts, depth + 1, link)
+            cumulative = cumulative + datasets
+            add_data_to_json(datasets)
+            bar.update(i)
+            i = i + 1
+        # add_data_to_json(cumulative)
         new_links = [dataset[0] for dataset in cumulative]
         return links + download_urls(new_links ,depth + 1)
 
@@ -145,9 +162,10 @@ if __name__ == "__main__":
     access = try_open_url(root)
     first = {
         "url_0": {
-            "path": root,
+            "link": root,
             "depth": 0,
-            "access": access
+            "access": access,
+            "prev": None
         }
     }
     write_to_file(first)
