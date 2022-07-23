@@ -6,7 +6,6 @@ import progressbar # pip install progressbar2
 import argparse
 import yaml # pip install pyyaml
 import io
-import time
 # usage: python links.py -r https://www.ynet.co.il/home/0,7340,L-8,00.html -d 2 -f yaml
 
 # user input
@@ -131,7 +130,8 @@ def download_urls(links ,depth = 0):
         cumulative = []
         for link in links:
             dataset = create_dataset(link, depth)
-            add_data_to_json(dataset)
+            if dataset:
+                add_data_to_json(dataset)
             extracts = list(set(extract_urls(link)))
             cumulative = cumulative + extracts
             bar.update(next)
