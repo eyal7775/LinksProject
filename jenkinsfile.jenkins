@@ -4,8 +4,13 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh python hello.py
+                    hw = sh(script: 'python hello.py',returnStdout: true).trim()
                 }
+            }
+        }
+        stage('Test') {
+            steps {
+
             }
         }
     }
