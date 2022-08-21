@@ -1,0 +1,14 @@
+@Library('my-library') _
+pipeline {
+    agent { label 'does-not-exist' }
+    stages {
+        stage("Initialize") {
+            steps {
+                echo 'Placeholder'
+            }
+        } 
+    }
+}
+
+// press F1 find Validate Jenkinsfile
+// http://localhost:8080/pipeline-model-converter/validate
