@@ -1,12 +1,13 @@
-@Library('my-library') _
 pipeline {
-    agent { label 'does-not-exist' }
+    agent any
     stages {
-        stage("Initialize") {
+        stage('build') {
             steps {
-                echo 'Placeholder'
+                script {
+                    env.HELLO = sh(script: "python hello.py, returnStdout: true).toString().trim()
+                }
             }
-        } 
+        }
     }
 }
 
