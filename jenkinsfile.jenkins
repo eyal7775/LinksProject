@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 script {
-                    env.HELLO = sh(script: "python hello.py, returnStdout: true).toString().trim()
+                    sh python hello.py
                 }
             }
         }
