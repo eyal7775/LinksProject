@@ -1,15 +1,20 @@
 pipeline {
-    agent {
-        docker {
-            image 'python:latest'
-        }
-    }
+    agent any
     stages {
+        stage('Checkout') {
+            steps {
+                checkout([$class: 'GitSCM', branches: [[name: '*/dev1']], extensions: [], userRemoteConfigs: [[credentialsId: '42bfc7ae-dc12-4e80-98fe-ccf2d63c0863', url: 'https://github.com/eyal7775/LinksProject.git']]])
+            }
+        }
         stage('Build') {
             steps {
-                script {
-                    hw = sh(script: 'python hello.py',returnStdout: true).trim()
-                }
+                git branch: 'dev1', credentialsId: '42bfc7ae-dc12-4e80-98fe-ccf2d63c0863', url: 'https://github.com/eyal7775/LinksProject.git'
+                bat label: '', script: 'python arieth.py'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'the job has been tested'
             }
         }
     }
