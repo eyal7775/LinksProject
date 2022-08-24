@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                checkout([$class: 'GitSCM', branches: [[name: '*/dev1']], extensions: [], userRemoteConfigs: [[credentialsId: '42bfc7ae-dc12-4e80-98fe-ccf2d63c0863', url: 'https://github.com/eyal7775/LinksProject.git']]])
+                checkout([$class: 'GitSCM', branches: [[name: '*/dev1']], extensions: [], userRemoteConfigs: [[credentialsId: 'eyal_git', url: 'https://github.com/eyal7775/LinksProject.git']]])
             }
         }
         stage('Build') {
             steps {
-                git branch: 'dev1', credentialsId: '42bfc7ae-dc12-4e80-98fe-ccf2d63c0863', url: 'https://github.com/eyal7775/LinksProject.git'
+                git branch: 'dev1', credentialsId: 'eyal_git', url: 'https://github.com/eyal7775/LinksProject.git'
                 bat 'python arieth.py'
             }
         }
