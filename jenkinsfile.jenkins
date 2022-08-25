@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 git branch: 'dev1', credentialsId: 'eyal_git', url: 'https://github.com/eyal7775/LinksProject.git'
-                bat 'python arieth.py'
+                sh 'python arieth.py'
             }
         }
         stage('Test') {
