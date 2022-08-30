@@ -11,7 +11,7 @@ pipeline {
         stage('Docker') {
             agent { docker { image 'python:3.10' } }
             steps {
-                sh docker --version
+                powershell 'python --version'
             }
         }
         stage('Build') {
