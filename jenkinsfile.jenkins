@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'python:3.10' } }
+    agent { label 'windows' }
     stages {
         stage('Checkout') {
             steps {
@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 git branch: 'dev1', credentialsId: 'eyal_git', url: 'https://github.com/eyal7775/LinksProject.git'
-                sh 'python arieth.py'
+                powershell 'python arieth.py'
             }
         }
         stage('Test') {
@@ -22,3 +22,5 @@ pipeline {
 
 // press F1 find Validate Jenkinsfile
 // http://localhost:8080/pipeline-model-converter/validate
+// running Jenkins docker container:
+// docker run -p 8080:8080 -p 50000:50000 -v /var/run/docker.sock:/var/run/docker.sock --name jenkins jenkins
