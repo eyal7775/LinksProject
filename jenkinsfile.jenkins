@@ -13,6 +13,15 @@ pipeline {
                 powershell 'pylint arieth.py'
             }
         }
+        stage('Python') {
+            steps {
+                script {
+                    docker.image("python:3.10").inside {
+                        sh 'cd /usr/src/app && npm test && npm run build'
+                    }
+                }
+            }
+        }
         stage('Test') {
             steps {
                 echo 'the job has been tested'
