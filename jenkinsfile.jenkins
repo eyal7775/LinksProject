@@ -1,40 +1,11 @@
-pipeline {
-    agent {label 'linux'}
+pipeline
+    { agent { docker { image 'mven:3.3.3'} }
     stages {
-        stage('Checkout') {
+        stage('log version info') {
             steps {
-                checkout([$class: 'GitSCM', branches: [[name: '*/dev1']], extensions: [], userRemoteConfigs: [[credentialsId: 'eyal_git', url: 'https://github.com/eyal7775/LinksProject.git']]])
-            }
-        }
-        stage('Docker') {
-            agent docker { image 'python:3.10' }
-            steps {
-                powershell 'python --version'
-            }
-        }
-        stage('Build') {
-            steps {
-                git branch: 'dev1', credentialsId: 'eyal_git', url: 'https://github.com/eyal7775/LinksProject.git'
-                powershell 'python arieth.py'
-                powershell 'pylint arieth.py'
-            }
-        }
-        stage('Python') {
-            steps {
-                script {
-                    docker.image("python:3.10").inside {
-                        sh 'cd /usr/src/app && npm test && npm run build'
-                    }
-                }
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'the job has been tested'
+                sh 'mvn --version'
+                sh 'mvn clean install'
             }
         }
     }
 }
-
-// running Jenkins docker container:
-// docker run -p 8080:8080 -p 50000:50000 -v /var/run/docker.sock:/var/run/docker.sock --name jenkins jenkins
