@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'windows' }
+    agent { docker { image 'python:3.10' } }
     stages {
         stage('Checkout') {
             steps {
@@ -11,6 +11,15 @@ pipeline {
                 git branch: 'dev1', credentialsId: 'eyal_git', url: 'https://github.com/eyal7775/LinksProject.git'
                 powershell 'python arieth.py'
                 powershell 'pylint arieth.py'
+            }
+        }
+        stage('Python') {
+            steps {
+                script {
+                    docker.image("python:3.10").inside {
+                        sh 'cd /usr/src/app && npm test && npm run build'
+                    }
+                }
             }
         }
         stage('Test') {
