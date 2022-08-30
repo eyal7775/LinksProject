@@ -1,9 +1,17 @@
 pipeline {
-    agent { docker { image 'python:3.10' } }
+    agent {
+        none
+    }
     stages {
         stage('Checkout') {
             steps {
                 checkout([$class: 'GitSCM', branches: [[name: '*/dev1']], extensions: [], userRemoteConfigs: [[credentialsId: 'eyal_git', url: 'https://github.com/eyal7775/LinksProject.git']]])
+            }
+        }
+        stage('Docker') {
+            agent { docker { image 'python:3.10' } }
+            steps {
+                sh docker --version
             }
         }
         stage('Build') {
