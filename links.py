@@ -146,3 +146,6 @@ if __name__ == "__main__":
     assert len(set(links)) == len(links)
     end = datetime.datetime.now()
     print("\nrun time: " + str(end - start))
+
+# git checkout -f origin/dev1
+# git checkout -f origin/master
