@@ -150,3 +150,4 @@ if __name__ == "__main__":
 # git checkout dev1
 # git checkout origin/master
 # git push origin master
+# ctrl + k
