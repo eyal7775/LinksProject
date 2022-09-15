@@ -149,3 +149,4 @@ if __name__ == "__main__":
 
 # git checkout -f origin/dev1
 # git checkout -f origin/master
+# git push origin HEAD:master
