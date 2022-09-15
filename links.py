@@ -31,6 +31,7 @@ widgets = [
     progressbar.Percentage(), '',
 ]
 
+# get all extentions ignore
 def get_extensions():
     file = open("ignore.txt", "r")
     content = file.read()
