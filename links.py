@@ -13,6 +13,7 @@ parser = argparse.ArgumentParser(description='enter root link with max depth for
 parser.add_argument('-r', '--root', help="main page from start scan", type=str, required=True)
 parser.add_argument('-d', '--depth', help="max depth for scanning", type=int, required=True)
 parser.add_argument('-f', '--format', help="file result format for display", type=str, required=True)
+# parser.add_argument('-s', '--search', help="get links by search words", type=str, required=True)
 
 # get initial arguments
 args = vars(parser.parse_args())
@@ -31,14 +32,6 @@ widgets = [
     progressbar.Percentage(), '',
 ]
 
-# get all extentions ignore
-def get_extensions():
-    file = open("ignore.txt", "r")
-    content = file.read()
-    ignore = content.split("\n")
-    file.close()
-    return ignore
-
 # create custom file format by user choise
 def create_file_format():
     with io.open(file_path, 'w', encoding='utf8') as file:
@@ -48,6 +41,14 @@ def create_file_format():
             json.dump({}, file, indent=4)
         else:
             raise Exception('the format is invalid')
+
+# get all extentions ignore
+def get_extensions():
+    file = open("ignore.txt", "r")
+    content = file.read()
+    ignore = content.split("\n")
+    file.close()
+    return ignore
 
 # extract urls set from general url
 def extract_urls(link):
