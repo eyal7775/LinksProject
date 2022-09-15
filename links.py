@@ -6,7 +6,7 @@ import progressbar # pip install progressbar2
 import argparse
 import yaml # pip install pyyaml
 import io
-# usage: python links.py -r https://www.ynet.co.il/home/0,7340,L-8,00.html -d 2 -f yaml
+# usage: python links.py -r https://edition.cnn.com -d 2 -f yml
 
 # user input
 parser = argparse.ArgumentParser(description='enter root link with max depth for scanning')
@@ -30,6 +30,13 @@ widgets = [
     progressbar.Bar('*'), '',
     progressbar.Percentage(), '',
 ]
+
+def get_extensions():
+    file = open("ignore.txt", "r")
+    content = file.read()
+    ignore = content.split("\n")
+    file.close()
+    return ignore
 
 # create custom file format by user choise
 def create_file_format():
@@ -129,19 +136,21 @@ def download_urls(links ,depth = 0):
         next = 0
         cumulative = []
         for link in links:
-            dataset = create_dataset(link, depth)
-            if dataset:
-                add_data_to_json(dataset)
-            extracts = list(set(extract_urls(link)))
-            cumulative = cumulative + extracts
-            bar.update(next)
-            next = next + 1
+            if not link.split('.')[-1] in ignore:
+                dataset = create_dataset(link, depth)
+                if dataset:
+                    add_data_to_json(dataset)
+                extracts = list(set(extract_urls(link)))
+                cumulative = cumulative + extracts
+                bar.update(next)
+                next = next + 1
         return links + download_urls(cumulative ,depth + 1)
 
 # main test
 if __name__ == "__main__":
     start = datetime.datetime.now()
     create_file_format()
+    ignore = get_extensions()
     links = download_urls([root])
     assert len(set(links)) == len(links)
     end = datetime.datetime.now()
