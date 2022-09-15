@@ -147,6 +147,6 @@ if __name__ == "__main__":
     end = datetime.datetime.now()
     print("\nrun time: " + str(end - start))
 
-# git checkout -f origin/dev1
-# git checkout -f origin/master
-# git push origin HEAD:master
+# git checkout dev1
+# git checkout origin/master
+# git push origin master
