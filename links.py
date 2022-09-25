@@ -24,6 +24,7 @@ timestamp = datetime.datetime.now().strftime('%m-%d-%Y %H-%M-%S')
 serial = 0
 visited = []
 file_path = root.split('.')[1] + "_md" + str(max_depth) + "_" + timestamp + "." + format
+ignore = ['ico','css','js','png','jpg','xml','json','svg','woff2','doc','aspx','pdf','io','php']
 
 # design for progress bar
 widgets = [
@@ -41,14 +42,6 @@ def create_file_format():
             json.dump({}, file, indent=4)
         else:
             raise Exception('the format is invalid')
-
-# get all extentions ignore
-def get_extensions():
-    file = open("ignore.txt", "r")
-    content = file.read()
-    ignore = content.split("\n")
-    file.close()
-    return ignore
 
 # extract urls set from general url
 def extract_urls(link):
@@ -76,7 +69,7 @@ def fix_urls(links):
         elif not '/' in link:
             link = 'https://' + root.split('/')[2] + '/' + link
         link = link[:-1] if link.endswith('/') else link
-        if link:
+        if link and not link in visited:
             fix_links.append(link)
     return fix_links
 
@@ -144,15 +137,14 @@ def download_urls(links ,depth = 0):
                     add_data_to_json(dataset)
                 extracts = list(set(extract_urls(link)))
                 cumulative = cumulative + extracts
-                bar.update(next)
-                next = next + 1
+            bar.update(next)
+            next = next + 1
         return links + download_urls(cumulative ,depth + 1)
 
 # main test
 if __name__ == "__main__":
     start = datetime.datetime.now()
     create_file_format()
-    ignore = get_extensions()
     links = download_urls([root])
     assert len(set(links)) == len(links)
     end = datetime.datetime.now()
