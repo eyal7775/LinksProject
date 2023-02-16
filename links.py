@@ -6,6 +6,7 @@ import progressbar # pip install progressbar2
 import argparse
 import yaml # pip install pyyaml
 import io
+import sqlite3
 # usage: python links.py -r https://edition.cnn.com -d 2 -f yml
 
 # user input
@@ -13,12 +14,13 @@ parser = argparse.ArgumentParser(description='enter root link with max depth for
 parser.add_argument('-r', '--root', help="main page from start scan", type=str, required=True)
 parser.add_argument('-d', '--depth', help="max depth for scanning", type=int, required=True)
 parser.add_argument('-f', '--format', help="file result format for display", type=str, required=True)
-# parser.add_argument('-s', '--search', help="get links by search words", type=str, required=True)
+# parser.add_argument('-s', '--search', help="get links by search words", type=str, required=False)
 
 # get initial arguments
 args = vars(parser.parse_args())
 root ,max_depth ,format = args['root'] ,args['depth'] ,args['format']
 timestamp = datetime.datetime.now().strftime('%m-%d-%Y %H-%M-%S')
+datasets = []
 
 # global variables
 serial = 0
@@ -33,15 +35,67 @@ widgets = [
     progressbar.Percentage(), '',
 ]
 
-# create custom file format by user choise
+# create custom file format by user choice
 def create_file_format():
-    with io.open(file_path, 'w', encoding='utf8') as file:
+    with io.open(file_path, "w", encoding='utf8') as file:
         if format == 'yaml' or format == 'yml':
             yaml.dump({}, file, default_flow_style=False, allow_unicode=True, sort_keys=False)
         elif format == 'json':
             json.dump({}, file, indent=4)
         else:
             raise Exception('the format is invalid')
+
+# insert url data to file results if exist
+def add_data_to_file(link ,depth):
+    dataset = create_dataset(link ,depth)
+    datasets.append(dataset)
+    if dataset:
+        data = read_from_file()
+        global serial
+        link, depth, access = dataset[1], dataset[2], dataset[3]
+        key = 'url_' + str(serial)
+        value = {
+            "link": link,
+            "depth": depth,
+            "access": access,
+        }
+        data[key] = value
+        serial = serial + 1
+        write_to_file(data)
+
+# create dataset information for link
+def create_dataset(link ,depth):
+    dataset = []
+    global serial
+    if not link in visited:
+        dataset = (serial, link, depth, try_open_url(link))
+        visited.append(link)
+    return dataset
+
+# check access to url
+def try_open_url(link):
+    try:
+        access = requests.get(link ,headers={'User-Agent': 'Mozilla/5.0'} ,allow_redirects=False)
+        return access.status_code in [200 ,301 ,302 ,303 ,403 ,406 ,500 ,999]
+    except:
+        return False
+
+# read latest data from file results
+def read_from_file():
+    with open(file_path , "r") as file:
+        if format == 'yaml' or format == 'yml':
+            data = yaml.safe_load(file)
+        elif format == 'json':
+            data = json.load(file)
+    return data
+
+# write new data to file results
+def write_to_file(data):
+    with io.open(file_path, "w", encoding='utf8') as file:
+        if format == 'yaml' or format == 'yml':
+            yaml.dump(data, file, default_flow_style=False, allow_unicode=True, sort_keys=False)
+        elif format == 'json':
+            json.dump(data, file, indent=4)
 
 # extract urls set from general url
 def extract_urls(link):
@@ -53,6 +107,15 @@ def extract_urls(link):
         return fix_links
     except:
         return []
+
+# try open url and response html content
+def try_get_html(link):
+    try:
+        response = requests.get(link, headers={'User-Agent': 'Mozilla/5.0'}, allow_redirects=False)
+        html = response.content.decode('latin1')
+        return html
+    except:
+        return ''
 
 # fix incomplete urls to access active
 def fix_urls(links):
@@ -73,54 +136,6 @@ def fix_urls(links):
             fix_links.append(link)
     return fix_links
 
-# create dataset information for link
-def create_dataset(link ,depth):
-    dataset = []
-    if not link in visited:
-        dataset = [link, depth, try_open_url(link)]
-        visited.append(link)
-    return dataset
-
-# check access to url
-def try_open_url(link):
-    try:
-        access = requests.get(link ,headers={'User-Agent': 'Mozilla/5.0'} ,allow_redirects=False)
-        return access.status_code in [200 ,301 ,302 ,303 ,403 ,406 ,500 ,999]
-    except:
-        return False
-
-# insert url data to file results
-def add_data_to_json(dataset):
-    data = read_from_file()
-    global serial
-    link, depth, access = dataset[0], dataset[1], dataset[2]
-    key = 'url_' + str(serial)
-    value = {
-        "link": link,
-        "depth": depth,
-        "access": access,
-    }
-    data[key] = value
-    serial = serial + 1
-    write_to_file(data)
-
-# read latest data from file results
-def read_from_file():
-    with open(file_path , "r") as file:
-        if format == 'yaml' or format == 'yml':
-            data = yaml.safe_load(file)
-        elif format == 'json':
-            data = json.load(file)
-    return data
-
-# write new data to file results
-def write_to_file(data):
-    with io.open(file_path, 'w', encoding='utf8') as file:
-        if format == 'yaml' or format == 'yml':
-            yaml.dump(data, file, default_flow_style=False, allow_unicode=True, sort_keys=False)
-        elif format == 'json':
-            json.dump(data, file, indent=4)
-
 # download all data from main url up to max depth
 def download_urls(links ,depth = 0):
     if depth > max_depth:
@@ -132,9 +147,7 @@ def download_urls(links ,depth = 0):
         cumulative = []
         for link in links:
             if not link.split('.')[-1] in ignore:
-                dataset = create_dataset(link, depth)
-                if dataset:
-                    add_data_to_json(dataset)
+                add_data_to_file(link ,depth)
                 extracts = list(set(extract_urls(link)))
                 cumulative = cumulative + extracts
             bar.update(next)
