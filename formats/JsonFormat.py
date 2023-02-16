@@ -1,7 +1,7 @@
 from formats.ILinks import ILinks
 import re
-import requests # pip install requests
-import progressbar # pip install progressbar2
+import requests
+import progressbar
 from shared import consts
 from shared.consts import visited, ignore, widgets
 import datetime

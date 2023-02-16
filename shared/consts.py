@@ -1,4 +1,4 @@
-import progressbar # pip install progressbar2
+import progressbar
 
 # static class variables
 serial = 0

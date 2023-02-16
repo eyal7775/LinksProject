@@ -1,9 +1,19 @@
+"""
+    requirements running:
+    - python -m pip install requests
+    - python -m pip install progressbar2
+    - python -m pip install pyyaml
+    or:
+    - python -m pip install -r requirements.txt
+    cmd line running:
+    - python C:/Users/<user_name>/PycharmProjects/LinksProject/main.py -r <root> -d <depth> -f <format>
+"""
 from formats.DBFormat import DBFormat
 from formats.JsonFormat import JsonFormat
 from formats.YmlFormat import YmlFormat
 import argparse
 import datetime
-import Rest_API
+# import Rest_API
 
 # user input
 parser = argparse.ArgumentParser(description='enter root link with max depth for scanning')
