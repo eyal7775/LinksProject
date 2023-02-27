@@ -1,4 +1,6 @@
 """
+    recommended command:
+    - python -m pip install --upgrade pip
     requirements running:
     - python -m pip install requests
     - python -m pip install progressbar2
@@ -6,11 +8,12 @@
     or:
     - python -m pip install -r requirements.txt
     cmd line running:
-    - python C:/Users/<user_name>/PycharmProjects/LinksProject/main.py -r <root> -d <depth> -f <format>
+    - python <user_path>/LinksProject/main.py -r <root> -d <depth> -f <format>
 """
 from formats.DBFormat import DBFormat
 from formats.JsonFormat import JsonFormat
 from formats.YmlFormat import YmlFormat
+from formats.CSVFormat import CSVFormat
 import argparse
 import datetime
 # import Rest_API
@@ -28,14 +31,24 @@ root ,max_depth ,format = args['root'] ,args['depth'] ,args['format']
 # main test
 if __name__ == "__main__":
     start = datetime.datetime.now()
-    instance = None
-    if format == 'json':
-        instance = JsonFormat(root,max_depth)
-    elif format == 'yaml' or format == 'yml':
-        instance = YmlFormat(root, max_depth)
-    elif format == 'db':
-        instance = DBFormat(root, max_depth)
-    instance.run_progress()
+    try:
+        instance = None
+        # check which type format by user choice
+        if format == 'json':
+            instance = JsonFormat(root,max_depth)
+        elif format == 'yaml' or format == 'yml':
+            instance = YmlFormat(root, max_depth)
+        elif format == 'db':
+            instance = DBFormat(root, max_depth)
+        elif format == 'csv':
+            instance = CSVFormat(root, max_depth)
+        # check if exist type format of user
+        if instance:
+            instance.run_progress()
+        else:
+            raise Exception(format)
+    except Exception as error:
+        print("this is not valid format:", error.args[0])
     end = datetime.datetime.now()
     print("\nrun time: " + str(end - start))
-    # Rest_API.run()
+    # this case: python C:/Users/eyal999/PycharmProjects/LinksProject/main.py -r <root> -d <depth> -f <format>
