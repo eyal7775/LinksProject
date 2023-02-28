@@ -47,4 +47,4 @@ if __name__ == "__main__":
         print("this is not valid format:", error.args[0])
     end = datetime.datetime.now()
     print("\nrun time: " + str(end - start))
-    # this case: python C:/Users/eyal999/PycharmProjects/LinksProject/main.py -r <root> -d <depth> -f <format>
+    # in this case: python C:/Users/eyal999/PycharmProjects/LinksProject/main.py -r <root> -d <depth> -f <format>
