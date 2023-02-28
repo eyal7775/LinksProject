@@ -6,14 +6,9 @@ from tools import Settings
 from tools.Settings import visited, ignore, widgets
 import datetime
 import csv
-import io
 import os
 
 class CSVFormat(ILinks):
-
-    # static class variables
-    file_path = ""
-    datasets = []
 
     # constructor
     def __init__(self, root, max_depth):
@@ -47,7 +42,7 @@ class CSVFormat(ILinks):
             key = 'url_' + str(self.serial)
             link, depth, access = dataset[1], dataset[2], dataset[3]
             data = [key, link, depth, access]
-            self.serial = self.serial + 1
+            self.serial += 1
             self.write_to_file(data)
 
     # create dataset information for link
@@ -126,7 +121,7 @@ class CSVFormat(ILinks):
                     extracts = list(set(self.extract_urls(link)))
                     cumulative = cumulative + extracts
                 bar.update(next)
-                next = next + 1
+                next += 1
             return links + self.download_urls(cumulative, depth + 1)
 
     # invoke order of actions for progress

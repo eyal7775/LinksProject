@@ -47,7 +47,7 @@ class JsonFormat(ILinks):
                 "access": access,
             }
             data[key] = value
-            self.serial = self.serial + 1
+            self.serial += 1
             self.write_to_file(data)
 
     # create dataset information for link
@@ -131,7 +131,7 @@ class JsonFormat(ILinks):
                     extracts = list(set(self.extract_urls(link)))
                     cumulative = cumulative + extracts
                 bar.update(next)
-                next = next + 1
+                next += 1
             return links + self.download_urls(cumulative, depth + 1)
 
     # invoke order of actions for progress

@@ -35,16 +35,13 @@ if __name__ == "__main__":
         instance = None
         # check which type format by user choice
         if format == 'json':
-            instance = JsonFormat(root,max_depth)
+            instance = JsonFormat(root,max_depth).run_progress()
         elif format == 'yaml' or format == 'yml':
-            instance = YmlFormat(root, max_depth)
+            instance = YmlFormat(root, max_depth).run_progress()
         elif format == 'db':
-            instance = DBFormat(root, max_depth)
+            instance = DBFormat(root, max_depth).run_progress()
         elif format == 'csv':
-            instance = CSVFormat(root, max_depth)
-        # check if exist type format of user
-        if instance:
-            instance.run_progress()
+            instance = CSVFormat(root, max_depth).run_progress()
         else:
             raise Exception(format)
     except Exception as error:

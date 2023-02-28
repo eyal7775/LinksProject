@@ -42,7 +42,7 @@ class DBFormat(ILinks):
         dataset = self.create_dataset(link, depth)
         if dataset:
             self.cur.insert_query(dataset)
-            self.serial = self.serial + 1
+            self.serial += 1
 
     # create dataset information for link
     def create_dataset(self, link, depth):
@@ -114,7 +114,7 @@ class DBFormat(ILinks):
                     extracts = list(set(self.extract_urls(link)))
                     cumulative = cumulative + extracts
                 bar.update(next)
-                next = next + 1
+                next += 1
             return links + self.download_urls(cumulative, depth + 1)
 
     # invoke order of actions for progress
