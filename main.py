@@ -16,7 +16,6 @@ from formats.YmlFormat import YmlFormat
 from formats.CSVFormat import CSVFormat
 import argparse
 import datetime
-# import Rest_API
 
 # user input
 parser = argparse.ArgumentParser(description='enter root link with max depth for scanning')
