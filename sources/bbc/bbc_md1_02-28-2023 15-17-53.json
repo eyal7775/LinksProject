@@ -1,0 +1,772 @@
+{
+    "url_0": {
+        "link": "https://www.bbc.com",
+        "depth": 0,
+        "access": true
+    },
+    "url_1": {
+        "link": "https://www.bbc.com/future/article/20230215-should-future-generations-have-climate-rights",
+        "depth": 1,
+        "access": true
+    },
+    "url_2": {
+        "link": "https://www.bbc.com/news/technology-64720533",
+        "depth": 1,
+        "access": true
+    },
+    "url_3": {
+        "link": "https://www.bbc.com/culture/article/20230227-the-original-and-most-iconic-male-model",
+        "depth": 1,
+        "access": true
+    },
+    "url_4": {
+        "link": "https://www.bbc.com/sport/football",
+        "depth": 1,
+        "access": true
+    },
+    "url_5": {
+        "link": "https://www.bbc.com/news/technology-64784368",
+        "depth": 1,
+        "access": true
+    },
+    "url_6": {
+        "link": "https://www.bbc.com/marathi",
+        "depth": 1,
+        "access": true
+    },
+    "url_7": {
+        "link": "https://www.bbc.com/reel/video/p08v2cjz/how-the-swedes-survive-without-small-talk",
+        "depth": 1,
+        "access": true
+    },
+    "url_8": {
+        "link": "https://www.bbc.com/news/health-64742221",
+        "depth": 1,
+        "access": true
+    },
+    "url_9": {
+        "link": "https://www.bbc.com/news/in-pictures-64757068",
+        "depth": 1,
+        "access": true
+    },
+    "url_10": {
+        "link": "https://www.bbc.com/swahili",
+        "depth": 1,
+        "access": true
+    },
+    "url_11": {
+        "link": "https://www.bbc.co.uk/contact",
+        "depth": 1,
+        "access": true
+    },
+    "url_12": {
+        "link": "https://www.bbc.com/news/business-11428889",
+        "depth": 1,
+        "access": true
+    },
+    "url_13": {
+        "link": "https://www.bbc.com/news/world-us-canada-64785756",
+        "depth": 1,
+        "access": true
+    },
+    "url_14": {
+        "link": "https://www.bbc.com/news/science_and_environment",
+        "depth": 1,
+        "access": true
+    },
+    "url_15": {
+        "link": "https://www.bbc.com/news/business-64718017",
+        "depth": 1,
+        "access": true
+    },
+    "url_16": {
+        "link": "https://www.bbc.co.uk/bbcnewsletter",
+        "depth": 1,
+        "access": true
+    },
+    "url_17": {
+        "link": "https://www.bbc.com/news/in-pictures-64723755",
+        "depth": 1,
+        "access": true
+    },
+    "url_18": {
+        "link": "https://www.bbc.com/future/article/20230207-can-we-design-cities-for-disassembly",
+        "depth": 1,
+        "access": true
+    },
+    "url_19": {
+        "link": "https://www.bbc.com/news/world/europe",
+        "depth": 1,
+        "access": true
+    },
+    "url_20": {
+        "link": "https://www.bbc.com/news/live/world-africa-64785168",
+        "depth": 1,
+        "access": true
+    },
+    "url_21": {
+        "link": "https://www.bbc.com/news/entertainment-arts-64781316",
+        "depth": 1,
+        "access": true
+    },
+    "url_22": {
+        "link": "https://www.bbc.com/news/uk-england-london-64791997",
+        "depth": 1,
+        "access": true
+    },
+    "url_23": {
+        "link": "https://www.bbc.com/news/uk",
+        "depth": 1,
+        "access": true
+    },
+    "url_24": {
+        "link": "https://www.bbc.com/news",
+        "depth": 1,
+        "access": true
+    },
+    "url_25": {
+        "link": "https://www.bbc.co.uk/schedules/p00fzl9m",
+        "depth": 1,
+        "access": true
+    },
+    "url_26": {
+        "link": "https://www.bbc.com/sport/rugby-union/64799016",
+        "depth": 1,
+        "access": true
+    },
+    "url_27": {
+        "link": "https://www.bbc.co.uk/food",
+        "depth": 1,
+        "access": true
+    },
+    "url_28": {
+        "link": "https://www.bbc.com/news/entertainment-arts-64796544",
+        "depth": 1,
+        "access": true
+    },
+    "url_29": {
+        "link": "https://www.bbc.com/news/science-environment-64790153",
+        "depth": 1,
+        "access": true
+    },
+    "url_30": {
+        "link": "https://www.bbc.com/news/world-us-canada-64788207",
+        "depth": 1,
+        "access": true
+    },
+    "url_31": {
+        "link": "https://www.bbc.com/azeri",
+        "depth": 1,
+        "access": true
+    },
+    "url_32": {
+        "link": "http://www.bbc.com/culture",
+        "depth": 1,
+        "access": true
+    },
+    "url_33": {
+        "link": "https://www.bbc.com/indonesia",
+        "depth": 1,
+        "access": true
+    },
+    "url_34": {
+        "link": "https://www.bbc.com/news/business-38507481",
+        "depth": 1,
+        "access": true
+    },
+    "url_35": {
+        "link": "https://www.bbc.com/news/live/uk-64794293",
+        "depth": 1,
+        "access": true
+    },
+    "url_36": {
+        "link": "https://www.bbc.com/news/in_pictures",
+        "depth": 1,
+        "access": true
+    },
+    "url_37": {
+        "link": "https://www.bbc.co.uk/news",
+        "depth": 1,
+        "access": true
+    },
+    "url_38": {
+        "link": "https://www.bbc.com/news/england/london",
+        "depth": 1,
+        "access": true
+    },
+    "url_39": {
+        "link": "http://www.bbc.co.uk/worldserviceradio",
+        "depth": 1,
+        "access": true
+    },
+    "url_40": {
+        "link": "https://www.bbc.com/future/article/20230227-how-to-recycle-your-clothes",
+        "depth": 1,
+        "access": true
+    },
+    "url_41": {
+        "link": "https://www.bbc.com/news/world-us-canada-64790627",
+        "depth": 1,
+        "access": true
+    },
+    "url_42": {
+        "link": "https://www.bbc.com/russian/live/news-64666798",
+        "depth": 1,
+        "access": true
+    },
+    "url_43": {
+        "link": "https://www.bbc.com/hindi",
+        "depth": 1,
+        "access": true
+    },
+    "url_44": {
+        "link": "https://www.bbc.com/urdu",
+        "depth": 1,
+        "access": true
+    },
+    "url_45": {
+        "link": "https://www.bbc.com/travel",
+        "depth": 1,
+        "access": true
+    },
+    "url_46": {
+        "link": "https://www.bbc.com/news/world-europe-64779730",
+        "depth": 1,
+        "access": true
+    },
+    "url_47": {
+        "link": "https://www.bbc.com/uzbek",
+        "depth": 1,
+        "access": true
+    },
+    "url_48": {
+        "link": "https://www.bbc.com/persian/iran-64787880",
+        "depth": 1,
+        "access": true
+    },
+    "url_49": {
+        "link": "https://www.bbc.co.uk/sport",
+        "depth": 1,
+        "access": true
+    },
+    "url_50": {
+        "link": "https://www.bbc.com/news/world/us_and_canada",
+        "depth": 1,
+        "access": true
+    },
+    "url_51": {
+        "link": "https://www.bbc.com/burmese",
+        "depth": 1,
+        "access": true
+    },
+    "url_52": {
+        "link": "https://www.bbc.com/russian",
+        "depth": 1,
+        "access": true
+    },
+    "url_53": {
+        "link": "https://www.bbc.com/reel/video/p0f5qzdq/the-harmful-legacy-of-poor-nutrition",
+        "depth": 1,
+        "access": true
+    },
+    "url_54": {
+        "link": "https://www.bbc.com/travel/article/20230226-englands-twin-ghost-villages",
+        "depth": 1,
+        "access": true
+    },
+    "url_55": {
+        "link": "https://www.bbc.com/future/future-planet",
+        "depth": 1,
+        "access": true
+    },
+    "url_56": {
+        "link": "https://www.bbc.com/sport",
+        "depth": 1,
+        "access": true
+    },
+    "url_57": {
+        "link": "https://www.bbc.com/japanese",
+        "depth": 1,
+        "access": true
+    },
+    "url_58": {
+        "link": "https://www.bbc.com/news/world-us-canada-64769935",
+        "depth": 1,
+        "access": true
+    },
+    "url_59": {
+        "link": "https://www.bbc.co.uk/editorialguidelines/guidance/feeds-and-links",
+        "depth": 1,
+        "access": true
+    },
+    "url_60": {
+        "link": "https://www.bbc.com/ws/languages",
+        "depth": 1,
+        "access": true
+    },
+    "url_61": {
+        "link": "https://www.bbc.com/zhongwen/simp",
+        "depth": 1,
+        "access": true
+    },
+    "url_62": {
+        "link": "https://www.bbc.com/worklife",
+        "depth": 1,
+        "access": true
+    },
+    "url_63": {
+        "link": "https://www.bbc.com/news/business",
+        "depth": 1,
+        "access": true
+    },
+    "url_64": {
+        "link": "https://www.bbc.com/afrique",
+        "depth": 1,
+        "access": true
+    },
+    "url_65": {
+        "link": "https://www.bbc.com/usingthebbc/cookies/how-does-the-bbc-use-cookies-for-advertising",
+        "depth": 1,
+        "access": true
+    },
+    "url_66": {
+        "link": "https://www.bbc.com/weather",
+        "depth": 1,
+        "access": true
+    },
+    "url_67": {
+        "link": "https://www.bbc.co.uk",
+        "depth": 1,
+        "access": true
+    },
+    "url_68": {
+        "link": "https://www.bbc.com/persian",
+        "depth": 1,
+        "access": true
+    },
+    "url_69": {
+        "link": "https://www.bbc.com/nepali",
+        "depth": 1,
+        "access": true
+    },
+    "url_70": {
+        "link": "https://www.bbc.co.uk/usingthebbc/terms",
+        "depth": 1,
+        "access": true
+    },
+    "url_71": {
+        "link": "https://www.bbc.com/news/world-europe-64783651",
+        "depth": 1,
+        "access": true
+    },
+    "url_72": {
+        "link": "https://www.bbc.com/news/entertainment-arts-64762377",
+        "depth": 1,
+        "access": true
+    },
+    "url_73": {
+        "link": "https://www.bbc.com/news/uk-64782372",
+        "depth": 1,
+        "access": true
+    },
+    "url_74": {
+        "link": "https://www.bbc.co.uk/cbbc",
+        "depth": 1,
+        "access": true
+    },
+    "url_75": {
+        "link": "https://www.bbc.com/news/world-us-canada-64793444",
+        "depth": 1,
+        "access": true
+    },
+    "url_76": {
+        "link": "https://www.bbc.co.uk/guidance",
+        "depth": 1,
+        "access": true
+    },
+    "url_77": {
+        "link": "https://www.bbc.com/future/article/20230220-is-a-4-day-workweek-good-for-the-climate",
+        "depth": 1,
+        "access": true
+    },
+    "url_78": {
+        "link": "https://www.bbc.com/news/technology-64797355",
+        "depth": 1,
+        "access": true
+    },
+    "url_79": {
+        "link": "https://www.bbc.co.uk/usingthebbc/cookies",
+        "depth": 1,
+        "access": true
+    },
+    "url_80": {
+        "link": "https://www.bbc.com/news/business-15521824",
+        "depth": 1,
+        "access": true
+    },
+    "url_81": {
+        "link": "https://www.bbc.co.uk/weather",
+        "depth": 1,
+        "access": true
+    },
+    "url_82": {
+        "link": "https://www.bbc.com/mundo",
+        "depth": 1,
+        "access": true
+    },
+    "url_83": {
+        "link": "https://www.bbc.com/news/world-latin-america-64742729",
+        "depth": 1,
+        "access": true
+    },
+    "url_84": {
+        "link": "https://www.bbc.com/news/world-us-canada-64792894",
+        "depth": 1,
+        "access": true
+    },
+    "url_85": {
+        "link": "http://www.bbc.co.uk/programmes/p016tklr",
+        "depth": 1,
+        "access": true
+    },
+    "url_86": {
+        "link": "https://www.bbc.com/news/technology",
+        "depth": 1,
+        "access": true
+    },
+    "url_87": {
+        "link": "https://www.bbc.com/sport/cricket",
+        "depth": 1,
+        "access": true
+    },
+    "url_88": {
+        "link": "https://www.bbc.com/travel/article/20230227-greenlands-natural-medicine-for-the-soul",
+        "depth": 1,
+        "access": true
+    },
+    "url_89": {
+        "link": "https://www.bbc.com/portuguese",
+        "depth": 1,
+        "access": true
+    },
+    "url_90": {
+        "link": "https://www.bbc.com/news/business-64553796",
+        "depth": 1,
+        "access": true
+    },
+    "url_91": {
+        "link": "https://www.bbc.co.uk/contact/complaints/make-a-complaint",
+        "depth": 1,
+        "access": true
+    },
+    "url_92": {
+        "link": "https://www.bbc.com/news/world/africa",
+        "depth": 1,
+        "access": true
+    },
+    "url_93": {
+        "link": "http://www.bbc.com/future",
+        "depth": 1,
+        "access": true
+    },
+    "url_94": {
+        "link": "https://www.bbc.com/turkce",
+        "depth": 1,
+        "access": true
+    },
+    "url_95": {
+        "link": "https://www.bbc.com/news/world-europe-64789737",
+        "depth": 1,
+        "access": true
+    },
+    "url_96": {
+        "link": "https://www.bbc.com/sport/rugby-union",
+        "depth": 1,
+        "access": true
+    },
+    "url_97": {
+        "link": "https://www.bbc.com/sinhala",
+        "depth": 1,
+        "access": true
+    },
+    "url_98": {
+        "link": "https://www.bbc.com/kyrgyz",
+        "depth": 1,
+        "access": true
+    },
+    "url_99": {
+        "link": "https://www.bbc.com/somali",
+        "depth": 1,
+        "access": true
+    },
+    "url_100": {
+        "link": "https://www.bbc.com/hausa",
+        "depth": 1,
+        "access": true
+    },
+    "url_101": {
+        "link": "https://www.bbc.com/news/64741961",
+        "depth": 1,
+        "access": true
+    },
+    "url_102": {
+        "link": "https://www.bbc.com/reel",
+        "depth": 1,
+        "access": true
+    },
+    "url_103": {
+        "link": "https://www.bbc.com/sport/cricket/64776695",
+        "depth": 1,
+        "access": true
+    },
+    "url_104": {
+        "link": "https://www.bbc.co.uk/aboutthebbc",
+        "depth": 1,
+        "access": true
+    },
+    "url_105": {
+        "link": "https://www.bbc.com/news/world-us-canada-64790657",
+        "depth": 1,
+        "access": true
+    },
+    "url_106": {
+        "link": "https://www.bbc.com/news/business-64794720",
+        "depth": 1,
+        "access": true
+    },
+    "url_107": {
+        "link": "https://www.bbc.co.uk/bitesize",
+        "depth": 1,
+        "access": true
+    },
+    "url_108": {
+        "link": "https://www.bbc.com/news/business-64496392",
+        "depth": 1,
+        "access": true
+    },
+    "url_109": {
+        "link": "https://www.bbc.com/news/business-64781374",
+        "depth": 1,
+        "access": true
+    },
+    "url_110": {
+        "link": "https://www.bbc.com/news/world-us-canada-64792926",
+        "depth": 1,
+        "access": true
+    },
+    "url_111": {
+        "link": "https://www.bbc.co.uk/iplayer",
+        "depth": 1,
+        "access": true
+    },
+    "url_112": {
+        "link": "https://www.bbc.co.uk/cbeebies",
+        "depth": 1,
+        "access": true
+    },
+    "url_113": {
+        "link": "https://www.bbc.com/tamil",
+        "depth": 1,
+        "access": true
+    },
+    "url_114": {
+        "link": "https://www.bbc.com/news/entertainment_and_arts",
+        "depth": 1,
+        "access": true
+    },
+    "url_115": {
+        "link": "https://account.bbc.com/account",
+        "depth": 1,
+        "access": true
+    },
+    "url_116": {
+        "link": "https://www.bbc.com/news/world-europe-64793923",
+        "depth": 1,
+        "access": true
+    },
+    "url_117": {
+        "link": "https://www.bbcglobalnews.com",
+        "depth": 1,
+        "access": true
+    },
+    "url_118": {
+        "link": "https://www.bbc.com/news/world-europe-64744197",
+        "depth": 1,
+        "access": true
+    },
+    "url_119": {
+        "link": "https://www.bbc.co.uk/sounds",
+        "depth": 1,
+        "access": true
+    },
+    "url_120": {
+        "link": "https://www.bbc.com/news/uk-64783923",
+        "depth": 1,
+        "access": true
+    },
+    "url_121": {
+        "link": "https://www.bbc.com/news/uk-64791359",
+        "depth": 1,
+        "access": true
+    },
+    "url_122": {
+        "link": "https://www.bbc.com/news/uk-politics-64780591",
+        "depth": 1,
+        "access": true
+    },
+    "url_123": {
+        "link": "https://www.bbc.com/news/business-64742513",
+        "depth": 1,
+        "access": true
+    },
+    "url_124": {
+        "link": "https://www.bbc.co.uk/usingthebbc/privacy",
+        "depth": 1,
+        "access": true
+    },
+    "url_125": {
+        "link": "http://www.bbc.com/worklife",
+        "depth": 1,
+        "access": true
+    },
+    "url_126": {
+        "link": "https://www.bbc.com/arabic",
+        "depth": 1,
+        "access": true
+    },
+    "url_127": {
+        "link": "https://www.bbc.co.uk/accessibility",
+        "depth": 1,
+        "access": true
+    },
+    "url_128": {
+        "link": "https://www.bbc.com/worklife/article/20230227-what-does-work-life-balance-mean-in-a-changed-work-world",
+        "depth": 1,
+        "access": true
+    },
+    "url_129": {
+        "link": "https://www.bbc.com/news/world-latin-america-64769936",
+        "depth": 1,
+        "access": true
+    },
+    "url_130": {
+        "link": "https://www.bbc.com/news/world-asia-india-64716388",
+        "depth": 1,
+        "access": true
+    },
+    "url_131": {
+        "link": "https://www.bbc.com/sport/live/football/64787200",
+        "depth": 1,
+        "access": true
+    },
+    "url_132": {
+        "link": "http://www.bbc.com/sport",
+        "depth": 1,
+        "access": true
+    },
+    "url_133": {
+        "link": "https://www.bbc.com/news/world-europe-64750155",
+        "depth": 1,
+        "access": true
+    },
+    "url_134": {
+        "link": "https://www.bbc.com/reel/video/p0f56xr5/extreme-korean-game-stirs-heated-controversy",
+        "depth": 1,
+        "access": true
+    },
+    "url_135": {
+        "link": "https://www.bbc.com/ukrainian",
+        "depth": 1,
+        "access": true
+    },
+    "url_136": {
+        "link": "https://www.bbc.co.uk/notifications",
+        "depth": 1,
+        "access": true
+    },
+    "url_137": {
+        "link": "https://www.bbc.com/news/uk-64791545",
+        "depth": 1,
+        "access": true
+    },
+    "url_138": {
+        "link": "https://www.bbc.com/future/article/20230227-the-search-for-the-worlds-missing-genomes",
+        "depth": 1,
+        "access": true
+    },
+    "url_139": {
+        "link": "https://www.bbc.com/news/world-africa-64726122",
+        "depth": 1,
+        "access": true
+    },
+    "url_140": {
+        "link": "https://www.bbc.com/news/world-us-canada-64794008",
+        "depth": 1,
+        "access": true
+    },
+    "url_141": {
+        "link": "https://www.bbc.com/pashto",
+        "depth": 1,
+        "access": true
+    },
+    "url_142": {
+        "link": "https://www.bbc.com/weather/2643743",
+        "depth": 1,
+        "access": true
+    },
+    "url_143": {
+        "link": "https://www.bbc.com/news/world/latin_america",
+        "depth": 1,
+        "access": true
+    },
+    "url_144": {
+        "link": "https://www.bbc.com/vietnamese",
+        "depth": 1,
+        "access": true
+    },
+    "url_145": {
+        "link": "https://www.bbc.com/gahuza",
+        "depth": 1,
+        "access": true
+    },
+    "url_146": {
+        "link": "https://www.bbc.com/mundo/noticias-64711371",
+        "depth": 1,
+        "access": true
+    },
+    "url_147": {
+        "link": "https://www.bbc.com/worldserviceradio",
+        "depth": 1,
+        "access": true
+    },
+    "url_148": {
+        "link": "https://www.bbc.com/bengali",
+        "depth": 1,
+        "access": true
+    },
+    "url_149": {
+        "link": "https://www.bbc.com/future",
+        "depth": 1,
+        "access": true
+    },
+    "url_150": {
+        "link": "https://www.bbc.com/sport/football/64568155",
+        "depth": 1,
+        "access": true
+    },
+    "url_151": {
+        "link": "https://www.bbc.com/news/uk-64790111",
+        "depth": 1,
+        "access": true
+    },
+    "url_152": {
+        "link": "https://www.bbc.com/news/science-environment-64788106",
+        "depth": 1,
+        "access": true
+    },
+    "url_153": {
+        "link": "https://www.bbc.com/culture",
+        "depth": 1,
+        "access": true
+    }
+}

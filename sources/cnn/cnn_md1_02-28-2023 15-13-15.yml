@@ -1,0 +1,596 @@
+url_0:
+  link: https://edition.cnn.com
+  depth: 0
+  access: true
+url_1:
+  link: https://as-sec.casalemedia.com
+  depth: 1
+  access: true
+url_2:
+  link: https://money.cnn.com/data/afterhours
+  depth: 1
+  access: true
+url_3:
+  link: https://edition.cnn.com/specials/tech/upstarts
+  depth: 1
+  access: true
+url_4:
+  link: https://edition.cnn.com/live-tv
+  depth: 1
+  access: true
+url_5:
+  link: https://edition.cnn.com/interactive/2020/weather/gonzalo-storm-path-tracker/index.html
+  depth: 1
+  access: true
+url_6:
+  link: https://www.google.com
+  depth: 1
+  access: true
+url_7:
+  link: https://edition.cnn.com/sport/tennis
+  depth: 1
+  access: true
+url_8:
+  link: https://arabic.cnn.com
+  depth: 1
+  access: true
+url_9:
+  link: https://w.usabilla.com
+  depth: 1
+  access: false
+url_10:
+  link: https://edition.cnn.com/business/perspectives
+  depth: 1
+  access: true
+url_11:
+  link: https://edition.cnn.com/specials/health/life-but-better
+  depth: 1
+  access: true
+url_12:
+  link: https://edition.cnn.com/terms
+  depth: 1
+  access: true
+url_13:
+  link: https://edition.i.cdn.cnn.com
+  depth: 1
+  access: false
+url_14:
+  link: https://edition.cnn.com/style/videos
+  depth: 1
+  access: true
+url_15:
+  link: https://edition.cnn.com/email/subscription
+  depth: 1
+  access: true
+url_16:
+  link: https://ads.rubiconproject.com
+  depth: 1
+  access: true
+url_17:
+  link: https://edition.cnn.com/specials/health/sleep-life-but-better
+  depth: 1
+  access: true
+url_18:
+  link: https://partner.googleadservices.com
+  depth: 1
+  access: false
+url_19:
+  link: https://edition.cnn.com/style/arts
+  depth: 1
+  access: true
+url_20:
+  link: https://edition.cnn.com/specials/videos/digital-shorts
+  depth: 1
+  access: true
+url_21:
+  link: https://edition.cnn.com/entertainment/movies
+  depth: 1
+  access: true
+url_22:
+  link: https://edition.cnn.com/entertainment/tv-shows
+  depth: 1
+  access: true
+url_23:
+  link: https://edition.cnn.com/specials/health/fitness-life-but-better
+  depth: 1
+  access: true
+url_24:
+  link: https://edition.cnn.com/vr
+  depth: 1
+  access: true
+url_25:
+  link: https://edition.cnn.com/specials/esports
+  depth: 1
+  access: true
+url_26:
+  link: https://edition.cnn.com/specials/investing/before-the-bell
+  depth: 1
+  access: true
+url_27:
+  link: https://ht.cdn.turner.com
+  depth: 1
+  access: true
+url_28:
+  link: https://edition.cnn.com/specials/health/relationships-life-but-better
+  depth: 1
+  access: true
+url_29:
+  link: https://dsum-sec.casalemedia.com
+  depth: 1
+  access: true
+url_30:
+  link: https://edition.cnn.com/more
+  depth: 1
+  access: true
+url_31:
+  link: https://edition.cnn.com/world
+  depth: 1
+  access: true
+url_32:
+  link: https://edition.cnn.com/politics
+  depth: 1
+  access: true
+url_33:
+  link: https://edition.cnn.com/world/china
+  depth: 1
+  access: true
+url_34:
+  link: https://edition.cnn.com/business/success
+  depth: 1
+  access: true
+url_35:
+  link: https://edition.cnn.com/specials/world/cnn-climate
+  depth: 1
+  access: true
+url_36:
+  link: https://edition.cnn.com/specials/tech/innovative-cities
+  depth: 1
+  access: true
+url_37:
+  link: https://edition.cnn.com/specials/tech/gadget
+  depth: 1
+  access: true
+url_38:
+  link: https://edition.cnn.com/specials/cnn-investigates
+  depth: 1
+  access: true
+url_39:
+  link: https://edition.cnn.com/newsletters
+  depth: 1
+  access: true
+url_40:
+  link: https://cnnespanol.cnn.com
+  depth: 1
+  access: true
+url_41:
+  link: https://fastlane-adv.rubiconproject.com
+  depth: 1
+  access: false
+url_42:
+  link: https://edition.cnn.com/specials/impact-your-world
+  depth: 1
+  access: true
+url_43:
+  link: https://edition.cnn.com/specials/weather/weather-video
+  depth: 1
+  access: true
+url_44:
+  link: http://cnnnewsource.com
+  depth: 1
+  access: true
+url_45:
+  link: https://edition.cnn.com/travel/destinations
+  depth: 1
+  access: true
+url_46:
+  link: https://amd.cdn.turner.com
+  depth: 1
+  access: false
+url_47:
+  link: https://edition.cnn.com/world/asia
+  depth: 1
+  access: true
+url_48:
+  link: https://edition.cnn.com/specials/tech/mission-ahead
+  depth: 1
+  access: true
+url_49:
+  link: https://edition.cnn.com/style/luxury
+  depth: 1
+  access: true
+url_50:
+  link: https://edition.cnn.com/interactive/2020/weather/wildfire-and-air-quality-tracker
+  depth: 1
+  access: true
+url_51:
+  link: https://edition.cnn.com/specials
+  depth: 1
+  access: true
+url_52:
+  link: https://c.amazon-adsystem.com
+  depth: 1
+  access: true
+url_53:
+  link: https://edition.cnn.com/specials/digital-studios
+  depth: 1
+  access: true
+url_54:
+  link: https://edition.cnn.com/style
+  depth: 1
+  access: true
+url_55:
+  link: https://edition.cnn.com/travel
+  depth: 1
+  access: true
+url_56:
+  link: https://js-sec.indexww.com
+  depth: 1
+  access: true
+url_57:
+  link: https://edition.cnn.com/india
+  depth: 1
+  access: true
+url_58:
+  link: https://edition.cnn.com/specials/videos/hln
+  depth: 1
+  access: true
+url_59:
+  link: https://fastlane.rubiconproject.com
+  depth: 1
+  access: true
+url_60:
+  link: https://edition.cnn.com/interactive/call-to-earth
+  depth: 1
+  access: true
+url_61:
+  link: https://edition.cnn.com/specials/africa/inside-africa
+  depth: 1
+  access: true
+url_62:
+  link: https://commercial.cnn.com
+  depth: 1
+  access: true
+url_63:
+  link: https://www.cnn.com/sitemap.html
+  depth: 1
+  access: true
+url_64:
+  link: https://edition.cnn.com/sport/football
+  depth: 1
+  access: true
+url_65:
+  link: https://edition.cnn.com/markets
+  depth: 1
+  access: true
+url_66:
+  link: https://edition.cnn.com/specials/politics/joe-biden-news
+  depth: 1
+  access: true
+url_67:
+  link: https://www.cnn.com
+  depth: 1
+  access: true
+url_68:
+  link: https://edition.cnn.com/business/media
+  depth: 1
+  access: true
+url_69:
+  link: https://edition.cnn.com/tv/schedule/cnn
+  depth: 1
+  access: true
+url_70:
+  link: https://edition.cnn.com/specials/climbing
+  depth: 1
+  access: true
+url_71:
+  link: https://edition.cnn.com/specials/photos
+  depth: 1
+  access: true
+url_72:
+  link: https://aax.amazon-adsystem.com
+  depth: 1
+  access: false
+url_73:
+  link: https://edition.cnn.com/entertainment
+  depth: 1
+  access: true
+url_74:
+  link: https://edition.cnn.com/specials/health/mindfulness-life-but-better
+  depth: 1
+  access: true
+url_75:
+  link: https://edition.cnn.com/videos
+  depth: 1
+  access: true
+url_76:
+  link: https://edition.cnn.com/specials/sport/us-sports
+  depth: 1
+  access: true
+url_77:
+  link: https://consent.truste.com
+  depth: 1
+  access: false
+url_78:
+  link: https://edition.cnn.com/world/americas
+  depth: 1
+  access: true
+url_79:
+  link: https://us.cnn.com
+  depth: 1
+  access: true
+url_80:
+  link: https://edition.cnn.com/specials/cnn-heroes
+  depth: 1
+  access: true
+url_81:
+  link: https://edition.cnn.com/world/europe
+  depth: 1
+  access: true
+url_82:
+  link: https://pmd.cdn.turner.com
+  depth: 1
+  access: true
+url_83:
+  link: https://edition.cnn.com/specials/investing/markets-now
+  depth: 1
+  access: true
+url_84:
+  link: https://edition.cnn.com/entertainment/celebrities
+  depth: 1
+  access: true
+url_85:
+  link: https://edition.cnn.com/sport/motorsport
+  depth: 1
+  access: true
+url_86:
+  link: https://edition.cnn.com/weather
+  depth: 1
+  access: true
+url_87:
+  link: https://store.cnn.com
+  depth: 1
+  access: true
+url_88:
+  link: https://edition.cnn.com/specials/cnn-longform
+  depth: 1
+  access: true
+url_89:
+  link: https://edition.cnn.com/travel/videos
+  depth: 1
+  access: true
+url_90:
+  link: https://cdn.krxd.net
+  depth: 1
+  access: true
+url_91:
+  link: https://edition.cnn.com/transcripts
+  depth: 1
+  access: true
+url_92:
+  link: https://edition.cnn.com/specials/opinions/two-degrees
+  depth: 1
+  access: true
+url_93:
+  link: https://edition.cnn.com/markets/fear-and-greed
+  depth: 1
+  access: true
+url_94:
+  link: https://tpc.googlesyndication.com
+  depth: 1
+  access: false
+url_95:
+  link: https://edition.cnn.com/health
+  depth: 1
+  access: true
+url_96:
+  link: https://edition.cnn.com/travel/food-and-drink
+  depth: 1
+  access: true
+url_97:
+  link: https://edition.cnn.com/sport
+  depth: 1
+  access: true
+url_98:
+  link: https://edition.cnn.com/style/architecture
+  depth: 1
+  access: true
+url_99:
+  link: https://edition.cnn.com/specials/sport/beijing-winter-olympics-2022
+  depth: 1
+  access: true
+url_100:
+  link: https://edition.cnn.com/election/2022
+  depth: 1
+  access: true
+url_101:
+  link: https://edition.cnn.com/specials/world/freedom-project
+  depth: 1
+  access: true
+url_102:
+  link: https://edition.cnn.com/interactive/asequals
+  depth: 1
+  access: true
+url_103:
+  link: https://edition.cnn.com/audio
+  depth: 1
+  access: true
+url_104:
+  link: https://pagead2.googlesyndication.com
+  depth: 1
+  access: false
+url_105:
+  link: https://as.casalemedia.com
+  depth: 1
+  access: true
+url_106:
+  link: https://edition.cnn.com/specials/tech/work-transformed
+  depth: 1
+  access: true
+url_107:
+  link: https://edition.cnn.com/business/tech
+  depth: 1
+  access: true
+url_108:
+  link: https://edition.cnn.com/privacy
+  depth: 1
+  access: true
+url_109:
+  link: https://www.googletagservices.com
+  depth: 1
+  access: false
+url_110:
+  link: https://edition.cnn.com/about
+  depth: 1
+  access: true
+url_111:
+  link: https://www.ugdturner.com
+  depth: 1
+  access: true
+url_112:
+  link: https://edition.cnn.com/style/fashion
+  depth: 1
+  access: true
+url_113:
+  link: https://edition.cnn.com/world/united-kingdom
+  depth: 1
+  access: true
+url_114:
+  link: https://edition.cnn.com/specials/business/nightcap
+  depth: 1
+  access: true
+url_115:
+  link: https://edition.cnn.com/business/investing
+  depth: 1
+  access: true
+url_116:
+  link: https://edition.cnn.com/business
+  depth: 1
+  access: true
+url_117:
+  link: https://money.cnn.com/data/hotstocks
+  depth: 1
+  access: true
+url_118:
+  link: https://edition.cnn.com/business/videos
+  depth: 1
+  access: true
+url_119:
+  link: https://edition.cnn.com/specials/tech/innovate
+  depth: 1
+  access: true
+url_120:
+  link: https://edition.cnn.com/specials/more/cnn-leadership
+  depth: 1
+  access: true
+url_121:
+  link: https://optimized-by.rubiconproject.com
+  depth: 1
+  access: false
+url_122:
+  link: https://edition.cnn.com/world/africa
+  depth: 1
+  access: true
+url_123:
+  link: https://segment-data-us-east.zqtk.net/turner-47fcf6
+  depth: 1
+  access: true
+url_124:
+  link: https://edition.cnn.com/specials/health/food-life-but-better
+  depth: 1
+  access: true
+url_125:
+  link: https://edition.cnn.com/specials/tech/foreseeable-future
+  depth: 1
+  access: true
+url_126:
+  link: https://edition.cnn.com/style/beauty
+  depth: 1
+  access: true
+url_127:
+  link: https://edition.cnn.com/specials/profiles
+  depth: 1
+  access: true
+url_128:
+  link: https://vrt.outbrain.com
+  depth: 1
+  access: false
+url_129:
+  link: https://edition.cnn.com/accessibility
+  depth: 1
+  access: true
+url_130:
+  link: https://edition.cnn.com/sport/golf
+  depth: 1
+  access: true
+url_131:
+  link: https://warnermediaprivacy.com/policycenter/b2c/WMNS
+  depth: 1
+  access: true
+url_132:
+  link: https://money.cnn.com/data/world_markets/americas
+  depth: 1
+  access: true
+url_133:
+  link: https://facebook.com/cnninternational
+  depth: 1
+  access: true
+url_134:
+  link: https://edition.cnn.com/specials/tv/all-shows
+  depth: 1
+  access: true
+url_135:
+  link: https://edition.cnn.com/travel/stay
+  depth: 1
+  access: true
+url_136:
+  link: https://instagram.com/cnn
+  depth: 1
+  access: true
+url_137:
+  link: https://cdn.cnn.com
+  depth: 1
+  access: false
+url_138:
+  link: https://edition.cnn.com/travel/news
+  depth: 1
+  access: true
+url_139:
+  link: https://twitter.com/cnni
+  depth: 1
+  access: true
+url_140:
+  link: https://edition.cnn.com/business/markets/premarkets
+  depth: 1
+  access: true
+url_141:
+  link: https://edition.cnn.com/world/australia
+  depth: 1
+  access: true
+url_142:
+  link: https://edition.cnn.com/world/middle-east
+  depth: 1
+  access: true
+url_143:
+  link: https://edition.cnn.com/style/design
+  depth: 1
+  access: true
+url_144:
+  link: https://edition.cnn.com/specials/politics/fact-check-politics
+  depth: 1
+  access: true
+url_145:
+  link: https://edition.cnn.com/collection
+  depth: 1
+  access: true
+url_146:
+  link: https://edition.cnn.com/msa
+  depth: 1
+  access: true
+url_147:
+  link: https://data.cnn.com
+  depth: 1
+  access: false
+url_148:
+  link: https://plus.google.com/+cnn/posts
+  depth: 1
+  access: true
