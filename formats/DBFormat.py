@@ -27,12 +27,12 @@ class DBFormat(ILinks):
             name_source = self.root.split('/')[-1].lower()
         if not os.path.exists("sources/" + name_source):
             os.mkdir("sources/" + name_source)
-        file_path = "sources/" + name_source + "/" + name_source + "_md" + str(self.max_depth) + "_" + timestamp + ".db"
-        self.cur = DBConnection(file_path)
+        self.file_path = "sources/" + name_source + "/" + name_source + "_md" + str(self.max_depth) + "_" + timestamp + ".db"
 
     # create db file with table
     def create_file_format(self):
         try:
+            self.cur = DBConnection(self.file_path)
             self.cur.create_table()
         except sqlite3.Error as e:
             print(e)
