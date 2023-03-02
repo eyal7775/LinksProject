@@ -1,7 +1,5 @@
 import progressbar
 
-# counter each source by depth
-serial = 0
 # storage sources is checked
 visited = []
 # ignore from sources with following extensions

@@ -2,7 +2,6 @@ from formats.ILinks import ILinks
 import re
 import requests
 import progressbar
-from tools import Settings
 from tools.Settings import visited, ignore, widgets
 import datetime
 import yaml
@@ -13,7 +12,7 @@ class YmlFormat(ILinks):
 
     # constructor
     def __init__(self, root, max_depth):
-        self.serial = Settings.serial
+        self.serial = 0
         self.root = root
         self.max_depth = max_depth
 
