@@ -8,7 +8,7 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["--root", "https://edition.cnn.com", "--depth", "1", "--format", "yml"]
+            "args": ["--root", "https://edition.cnn.com", "--depth", "1", "--format", "xml"]
         }
     ]
 }

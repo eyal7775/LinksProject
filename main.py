@@ -14,6 +14,7 @@ from formats.DBFormat import DBFormat
 from formats.JsonFormat import JsonFormat
 from formats.YmlFormat import YmlFormat
 from formats.CSVFormat import CSVFormat
+from formats.XMLFormat import XMLFormat
 import argparse
 import datetime
 
@@ -42,6 +43,8 @@ if __name__ == "__main__":
             instance = DBFormat(root, max_depth).run_progress()
         elif format == 'csv':
             instance = CSVFormat(root, max_depth).run_progress()
+        elif format == 'xml':
+            instance = XMLFormat(root, max_depth).run_progress()
         else:
             raise Exception(format)
     except Exception as error:
