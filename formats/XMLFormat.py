@@ -40,8 +40,8 @@ class XMLFormat(ILinks):
         if dataset:
             data = self.read_from_file()
             link, depth, access = dataset[1], dataset[2], dataset[3]
-            key = 'url_' + str(self.serial)
-            elem = ET.SubElement(data, key)
+            elem = ET.SubElement(data, 'url')
+            elem.set('id', str(self.serial))
             ET.SubElement(elem, 'link').text = link
             ET.SubElement(elem, 'depth').text = str(depth)
             ET.SubElement(elem, 'access').text = str(access)

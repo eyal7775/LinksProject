@@ -1,0 +1,748 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+	<url id="0">
+		<link>https://edition.cnn.com</link>
+		<depth>0</depth>
+		<access>True</access>
+	</url>
+	<url id="1">
+		<link>https://edition.cnn.com/travel/stay</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="2">
+		<link>https://data.cnn.com</link>
+		<depth>1</depth>
+		<access>False</access>
+	</url>
+	<url id="3">
+		<link>https://edition.cnn.com/specials/world/cnn-climate</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="4">
+		<link>https://edition.cnn.com/specials/esports</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="5">
+		<link>https://edition.cnn.com/specials/world/freedom-project</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="6">
+		<link>https://edition.cnn.com/accessibility</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="7">
+		<link>https://edition.cnn.com/email/subscription</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="8">
+		<link>https://partner.googleadservices.com</link>
+		<depth>1</depth>
+		<access>False</access>
+	</url>
+	<url id="9">
+		<link>https://edition.cnn.com/style/fashion</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="10">
+		<link>https://edition.cnn.com/specials/climbing</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="11">
+		<link>https://edition.cnn.com/specials/business/nightcap</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="12">
+		<link>https://edition.cnn.com/weather</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="13">
+		<link>https://edition.cnn.com/specials/tech/mission-ahead</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="14">
+		<link>https://edition.cnn.com/specials/politics/fact-check-politics</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="15">
+		<link>https://edition.cnn.com/entertainment/celebrities</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="16">
+		<link>https://edition.cnn.com/specials/cnn-investigates</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="17">
+		<link>https://edition.cnn.com/style</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="18">
+		<link>https://edition.cnn.com/interactive/call-to-earth</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="19">
+		<link>https://edition.cnn.com/travel/food-and-drink</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="20">
+		<link>https://edition.cnn.com/specials/tv/all-shows</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="21">
+		<link>https://warnermediaprivacy.com/policycenter/b2c/WMNS</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="22">
+		<link>https://edition.cnn.com/business/markets/premarkets</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="23">
+		<link>https://edition.cnn.com/markets</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="24">
+		<link>https://plus.google.com/+cnn/posts</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="25">
+		<link>https://edition.cnn.com/entertainment/movies</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="26">
+		<link>https://edition.cnn.com/india</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="27">
+		<link>https://edition.cnn.com/interactive/2020/weather/wildfire-and-air-quality-tracker</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="28">
+		<link>https://edition.cnn.com/business/investing</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="29">
+		<link>https://pagead2.googlesyndication.com</link>
+		<depth>1</depth>
+		<access>False</access>
+	</url>
+	<url id="30">
+		<link>https://edition.cnn.com/specials/impact-your-world</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="31">
+		<link>https://fastlane.rubiconproject.com</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="32">
+		<link>https://money.cnn.com/data/afterhours</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="33">
+		<link>https://money.cnn.com/data/world_markets/americas</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="34">
+		<link>https://www.googletagservices.com</link>
+		<depth>1</depth>
+		<access>False</access>
+	</url>
+	<url id="35">
+		<link>https://us.cnn.com</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="36">
+		<link>https://edition.cnn.com/election/2022</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="37">
+		<link>https://edition.cnn.com/specials/health/sleep-life-but-better</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="38">
+		<link>https://edition.cnn.com/live-tv</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="39">
+		<link>https://instagram.com/cnn</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="40">
+		<link>https://edition.cnn.com/specials/africa/inside-africa</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="41">
+		<link>https://arabic.cnn.com</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="42">
+		<link>https://pmd.cdn.turner.com</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="43">
+		<link>https://edition.cnn.com/specials/politics/joe-biden-news</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="44">
+		<link>https://edition.cnn.com/audio</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="45">
+		<link>https://edition.cnn.com/specials/opinions/two-degrees</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="46">
+		<link>https://edition.cnn.com/entertainment</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="47">
+		<link>https://edition.cnn.com/specials/tech/innovate</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="48">
+		<link>https://edition.cnn.com/msa</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="49">
+		<link>https://edition.cnn.com/specials/sport/us-sports</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="50">
+		<link>https://edition.cnn.com/sport/motorsport</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="51">
+		<link>https://edition.cnn.com/world/americas</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="52">
+		<link>https://edition.cnn.com/specials/health/relationships-life-but-better</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="53">
+		<link>https://cdn.cnn.com</link>
+		<depth>1</depth>
+		<access>False</access>
+	</url>
+	<url id="54">
+		<link>https://edition.cnn.com/world/united-kingdom</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="55">
+		<link>https://edition.cnn.com/transcripts</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="56">
+		<link>https://twitter.com/cnni</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="57">
+		<link>http://cnnnewsource.com</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="58">
+		<link>https://edition.cnn.com/business/tech</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="59">
+		<link>https://edition.cnn.com/sport/tennis</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="60">
+		<link>https://edition.cnn.com/newsletters</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="61">
+		<link>https://edition.cnn.com/world</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="62">
+		<link>https://edition.cnn.com/style/architecture</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="63">
+		<link>https://cdn.krxd.net</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="64">
+		<link>https://edition.cnn.com/specials/tech/gadget</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="65">
+		<link>https://ht.cdn.turner.com</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="66">
+		<link>https://w.usabilla.com</link>
+		<depth>1</depth>
+		<access>False</access>
+	</url>
+	<url id="67">
+		<link>https://edition.cnn.com/sport/golf</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="68">
+		<link>https://edition.cnn.com/specials/more/cnn-leadership</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="69">
+		<link>https://edition.cnn.com/collection</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="70">
+		<link>https://edition.cnn.com/specials</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="71">
+		<link>https://edition.cnn.com/specials/tech/work-transformed</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="72">
+		<link>https://edition.cnn.com/business/media</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="73">
+		<link>https://edition.cnn.com/tv/schedule/cnn</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="74">
+		<link>https://edition.cnn.com/specials/tech/foreseeable-future</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="75">
+		<link>https://www.cnn.com</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="76">
+		<link>https://edition.cnn.com/travel/news</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="77">
+		<link>https://edition.cnn.com/specials/health/life-but-better</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="78">
+		<link>https://edition.cnn.com/business</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="79">
+		<link>https://edition.cnn.com/specials/videos/hln</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="80">
+		<link>https://edition.cnn.com/specials/profiles</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="81">
+		<link>https://edition.cnn.com/privacy</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="82">
+		<link>https://dsum-sec.casalemedia.com</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="83">
+		<link>https://edition.cnn.com/travel/destinations</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="84">
+		<link>https://edition.cnn.com/health</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="85">
+		<link>https://edition.cnn.com/specials/digital-studios</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="86">
+		<link>https://edition.cnn.com/style/design</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="87">
+		<link>https://commercial.cnn.com</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="88">
+		<link>https://aax.amazon-adsystem.com</link>
+		<depth>1</depth>
+		<access>False</access>
+	</url>
+	<url id="89">
+		<link>https://www.google.com</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="90">
+		<link>https://edition.cnn.com/markets/fear-and-greed</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="91">
+		<link>https://edition.cnn.com/world/europe</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="92">
+		<link>https://edition.cnn.com/vr</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="93">
+		<link>https://fastlane-adv.rubiconproject.com</link>
+		<depth>1</depth>
+		<access>False</access>
+	</url>
+	<url id="94">
+		<link>https://www.ugdturner.com</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="95">
+		<link>https://edition.cnn.com/specials/investing/before-the-bell</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="96">
+		<link>https://edition.cnn.com/more</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="97">
+		<link>https://edition.cnn.com/sport</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="98">
+		<link>https://edition.cnn.com/specials/sport/beijing-winter-olympics-2022</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="99">
+		<link>https://edition.cnn.com/business/success</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="100">
+		<link>https://edition.cnn.com/videos</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="101">
+		<link>https://edition.cnn.com/interactive/2020/weather/gonzalo-storm-path-tracker/index.html</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="102">
+		<link>https://edition.cnn.com/travel</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="103">
+		<link>https://c.amazon-adsystem.com</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="104">
+		<link>https://www.cnn.com/sitemap.html</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="105">
+		<link>https://as-sec.casalemedia.com</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="106">
+		<link>https://edition.cnn.com/world/africa</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="107">
+		<link>https://edition.cnn.com/specials/health/fitness-life-but-better</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="108">
+		<link>https://as.casalemedia.com</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="109">
+		<link>https://ads.rubiconproject.com</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="110">
+		<link>https://tpc.googlesyndication.com</link>
+		<depth>1</depth>
+		<access>False</access>
+	</url>
+	<url id="111">
+		<link>https://edition.cnn.com/specials/cnn-heroes</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="112">
+		<link>https://edition.cnn.com/specials/health/mindfulness-life-but-better</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="113">
+		<link>https://edition.cnn.com/world/middle-east</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="114">
+		<link>https://edition.cnn.com/specials/investing/markets-now</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="115">
+		<link>https://edition.cnn.com/politics</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="116">
+		<link>https://edition.i.cdn.cnn.com</link>
+		<depth>1</depth>
+		<access>False</access>
+	</url>
+	<url id="117">
+		<link>https://edition.cnn.com/sport/football</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="118">
+		<link>https://edition.cnn.com/business/videos</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="119">
+		<link>https://edition.cnn.com/interactive/asequals</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="120">
+		<link>https://segment-data-us-east.zqtk.net/turner-47fcf6</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="121">
+		<link>https://edition.cnn.com/about</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="122">
+		<link>https://store.cnn.com</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="123">
+		<link>https://edition.cnn.com/world/asia</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="124">
+		<link>https://edition.cnn.com/specials/weather/weather-video</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="125">
+		<link>https://edition.cnn.com/business/perspectives</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="126">
+		<link>https://edition.cnn.com/specials/videos/digital-shorts</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="127">
+		<link>https://edition.cnn.com/travel/videos</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="128">
+		<link>https://amd.cdn.turner.com</link>
+		<depth>1</depth>
+		<access>False</access>
+	</url>
+	<url id="129">
+		<link>https://edition.cnn.com/specials/health/food-life-but-better</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="130">
+		<link>https://optimized-by.rubiconproject.com</link>
+		<depth>1</depth>
+		<access>False</access>
+	</url>
+	<url id="131">
+		<link>https://edition.cnn.com/specials/tech/innovative-cities</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="132">
+		<link>https://js-sec.indexww.com</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="133">
+		<link>https://edition.cnn.com/world/australia</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="134">
+		<link>https://edition.cnn.com/style/arts</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="135">
+		<link>https://edition.cnn.com/entertainment/tv-shows</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="136">
+		<link>https://edition.cnn.com/specials/tech/upstarts</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="137">
+		<link>https://edition.cnn.com/world/china</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="138">
+		<link>https://edition.cnn.com/terms</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="139">
+		<link>https://cnnespanol.cnn.com</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="140">
+		<link>https://edition.cnn.com/style/videos</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="141">
+		<link>https://edition.cnn.com/specials/photos</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="142">
+		<link>https://facebook.com/cnninternational</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="143">
+		<link>https://vrt.outbrain.com</link>
+		<depth>1</depth>
+		<access>False</access>
+	</url>
+	<url id="144">
+		<link>https://edition.cnn.com/style/luxury</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="145">
+		<link>https://money.cnn.com/data/hotstocks</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="146">
+		<link>https://edition.cnn.com/style/beauty</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+	<url id="147">
+		<link>https://consent.truste.com</link>
+		<depth>1</depth>
+		<access>False</access>
+	</url>
+	<url id="148">
+		<link>https://edition.cnn.com/specials/cnn-longform</link>
+		<depth>1</depth>
+		<access>True</access>
+	</url>
+</data>
