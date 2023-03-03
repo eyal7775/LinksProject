@@ -48,9 +48,9 @@ if __name__ == "__main__":
         elif format == 'xml':
             instance = XMLFormat(root, max_depth).run_progress()
         else:
-            raise Exception(format)
+            raise Exception(str(format) + " is invalid format")
     except Exception as error:
-        print("this is invalid format:", error.args[0])
+        print(error.args[0])
     end = datetime.datetime.now()
     print("\nrun time: " + str(end - start))
     # in this case: python C:/Users/eyal999/PycharmProjects/LinksProject/main.py -r <root> -d <depth> -f <format>
