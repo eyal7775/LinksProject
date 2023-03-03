@@ -29,13 +29,13 @@ class XMLFormat(ILinks):
 
     # create xml file
     def create_file_format(self):
-        tree = ET.Element("data")
-        tree = ET.ElementTree(tree)
+        data = ET.Element("data")
+        tree = ET.ElementTree(data)
         ET.indent(tree, space="\t", level=0)
-        tree.write(self.file_path, encoding="utf-8")
+        tree.write(self.file_path, xml_declaration=True, encoding="utf-8")
 
     # insert url data to file results if exist
-    def add_data_to_xml(self, link, depth):
+    def add_data_to_file(self, link, depth):
         dataset = self.create_dataset(link, depth)
         if dataset:
             data = self.read_from_file()
@@ -74,7 +74,7 @@ class XMLFormat(ILinks):
     def write_to_file(self, data):
         tree = ET.ElementTree(data)
         ET.indent(tree, space="\t", level=0)
-        tree.write(self.file_path, encoding="utf-8")
+        tree.write(self.file_path, xml_declaration=True, encoding="utf-8")
 
     # extract urls set from general url
     def extract_urls(self, link):
@@ -126,7 +126,7 @@ class XMLFormat(ILinks):
             cumulative = []
             for link in links:
                 if not link.split('.')[-1] in ignore:
-                    self.add_data_to_xml(link, depth)
+                    self.add_data_to_file(link, depth)
                     extracts = list(set(self.extract_urls(link)))
                     cumulative = cumulative + extracts
                 bar.update(next)

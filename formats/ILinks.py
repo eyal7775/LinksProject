@@ -12,6 +12,11 @@ class ILinks(ABC):
     def create_file_format(self):
         pass
 
+    # insert url data to file results if exist
+    @abstractmethod
+    def add_data_to_file(self, link, depth):
+        pass
+
     # create dataset information for link
     @abstractmethod
     def create_dataset(self, link, depth):

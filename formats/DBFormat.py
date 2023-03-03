@@ -37,7 +37,7 @@ class DBFormat(ILinks):
             print(e)
 
     # insert url data to database if exist
-    def insert_data_to_database(self, link, depth):
+    def add_data_to_file(self, link, depth):
         dataset = self.create_dataset(link, depth)
         if dataset:
             self.cur.insert_query(dataset)
@@ -109,7 +109,7 @@ class DBFormat(ILinks):
             cumulative = []
             for link in links:
                 if not link.split('.')[-1] in ignore:
-                    self.insert_data_to_database(link, depth)
+                    self.add_data_to_file(link, depth)
                     extracts = list(set(self.extract_urls(link)))
                     cumulative = cumulative + extracts
                 bar.update(next)

@@ -35,7 +35,7 @@ class CSVFormat(ILinks):
             csv_writer.writerow(header)
 
     # insert url data to file results if exist
-    def add_data_to_csv(self, link, depth):
+    def add_data_to_file(self, link, depth):
         dataset = self.create_dataset(link, depth)
         if dataset:
             key = 'url_' + str(self.serial)
@@ -116,7 +116,7 @@ class CSVFormat(ILinks):
             cumulative = []
             for link in links:
                 if not link.split('.')[-1] in ignore:
-                    self.add_data_to_csv(link, depth)
+                    self.add_data_to_file(link, depth)
                     extracts = list(set(self.extract_urls(link)))
                     cumulative = cumulative + extracts
                 bar.update(next)

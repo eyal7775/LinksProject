@@ -1,4 +1,6 @@
 """
+    interpeter requirement:
+    - the project run on python 3.10
     recommended command:
     - python -m pip install --upgrade pip
     requirements running:
@@ -36,7 +38,7 @@ if __name__ == "__main__":
         instance = None
         # check which type format by user choice
         if format == 'json':
-            instance = JsonFormat(root,max_depth).run_progress()
+            instance = JsonFormat(root, max_depth).run_progress()
         elif format == 'yaml' or format == 'yml':
             instance = YmlFormat(root, max_depth).run_progress()
         elif format == 'db':
